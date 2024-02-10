@@ -41,7 +41,7 @@ local function generate(colors)
         line_number = "#f3505c",
         indentline = "#777777",
         selection = "#358aec",
-        float_bg = "#777777",
+        float_bg = "#000000",
         inlay_hint = "#777777",
 
         -- Git colors
