@@ -37,7 +37,7 @@ local function generate(colors)
     return {
         cursorline = "#777777",
         color_column = "#777777",
-        fold = "#777777",
+        fold = "#000000",
         line_number = "#777777",
         indentline = "#777777",
         selection = "#358aec",
