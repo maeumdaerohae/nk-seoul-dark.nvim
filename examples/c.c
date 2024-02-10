@@ -9,7 +9,8 @@
 
 typedef int myint_t;
 
-struct hello {
+struct hello
+{
     const char *world;
     uint64_t fd;
     struct hello *ptr;
@@ -18,17 +19,19 @@ struct hello {
 /*
  * Hello world
  */
-int
-main(int argc, const char **argv)
+int main(int argc, const char **argv)
 {
     // Hello world
     static const int rc = 0;
 
 hello:
     printf("%s: %p", HELLO_WORLD, NULL);
-    if (true) {
+    if (true)
+    {
         return rc;
-    } else {
+    }
+    else
+    {
         return 1;
     }
 
