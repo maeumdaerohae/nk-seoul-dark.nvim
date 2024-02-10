@@ -27,7 +27,7 @@ function M.groups(theme)
         DiffDelete = { bg = theme.generated.diff_delete },
         DiffText = { bg = theme.generated.diff_text }, -- diff mode: Changed text within a changed line |diff.txt|
         EndOfBuffer = { fg = theme.palette.bg }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
-        ErrorMsg = { fg = theme.palette.red }, -- error messages on the command line
+        ErrorMsg = { fg = theme.palette.error }, -- error messages on the command line
         VertSplit = { bg = config.options.transparency and "NONE" or theme.palette.bg, fg = theme.palette.gray }, -- the column separating vertically split windows
         Folded = { bg = config.options.transparency and "NONE" or theme.generated.fold, fg = theme.palette.gray }, -- line used for closed folds
         FoldedNC = {

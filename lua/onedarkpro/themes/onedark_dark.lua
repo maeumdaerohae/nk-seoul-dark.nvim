@@ -35,14 +35,14 @@ local function generate(colors)
     local color = require("onedarkpro.helpers")
 
     return {
-        cursorline = colors.cursorline or color.lighten(colors.bg, 9),
-        color_column = colors.color_column or color.lighten(colors.bg, 8.8),
-        fold = colors.fold or color.lighten(colors.bg, 7),
-        line_number = colors.line_number or "#495162",
-        indentline = colors.indentline or color.lighten(colors.bg, 12),
-        selection = colors.selection or color.lighten(colors.bg, 13),
-        float_bg = colors.float_bg or color.darken(colors.bg, 3),
-        inlay_hint = colors.inlay_hint or color.darken(colors.gray, 7),
+        cursorline = "#777777",
+        color_column = "#777777",
+        fold = "#777777",
+        line_number = "#f3505c",
+        indentline = "#777777",
+        selection = "#358aec",
+        float_bg = "#777777",
+        inlay_hint = "#777777",
 
         -- Git colors
         git_add = colors.git_add or "#109868",
