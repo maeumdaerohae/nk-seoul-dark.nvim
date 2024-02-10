@@ -38,11 +38,11 @@ local function generate(colors)
         cursorline = "#777777",
         color_column = "#777777",
         fold = "#777777",
-        line_number = "#f3505c",
+        line_number = "#777777",
         indentline = "#777777",
         selection = "#358aec",
         float_bg = "#000000",
-        inlay_hint = "#777777",
+        inlay_hint = "#000000",
 
         -- Git colors
         git_add = colors.git_add or "#109868",
