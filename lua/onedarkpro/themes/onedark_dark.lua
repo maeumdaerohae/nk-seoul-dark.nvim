@@ -14,10 +14,17 @@ local default_colors = {
     blue = "#00f0ff", ---m cyan
     purple = "#f3505c", --- m red
     white = "#abb2bf",
+    pink = "#d867c6", --- m added pink
+    kaki = "#908b25", --- m added kaki
+    dark_blue = "#358aec", --- m added dark blue
+    light_purple = "#b5b6e3", --- m added light purple
+    dark_purple = "#9373a5", --- m added dark purple
+    cyber_orange = "#ffc07a", --- m added cyber orange
     black = "#000000",
     gray = "#434852",
+    error = "#ff0000", --- m added error
     highlight = "#e2be7d",
-    comment = "#7f848e",
+    comment = "#777777",
     none = "NONE",
 }
 
