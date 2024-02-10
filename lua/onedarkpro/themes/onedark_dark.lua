@@ -4,20 +4,23 @@ local meta = {
 }
 
 local default_colors = {
+    -- cyberpunk
     bg = "#000000",
     fg = "#abb2bf",
-    red = "#ef596f",
-    orange = "#d19a66",
-    yellow = "#e5c07b",
-    green = "#89ca78",
-    cyan = "#2bbac5",
-    blue = "#61afef",
+    red = "#F3505C",
+    orange = "#ffc07a",
+    yellow = "#eedb85",
+    green = "#47EB47",
+    cyan = "#00F0FF",
+    blue = "#368AEC",
     purple = "#d55fde",
-    white = "#abb2bf",
+    pink = "D867C6",
+    white = "#CACACA",
     black = "#000000",
     gray = "#434852",
+    kaki = "908B25",
     highlight = "#e2be7d",
-    comment = "#7f848e",
+    comment = "#777777",
     none = "NONE",
 }
 
