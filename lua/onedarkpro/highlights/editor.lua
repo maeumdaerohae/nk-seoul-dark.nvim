@@ -10,18 +10,18 @@ function M.groups(theme)
     return {
         ColorColumn = { bg = theme.generated.color_column }, -- used for the columns set with 'colorcolumn'
         Conceal = { fg = theme.palette.fg }, -- placeholder characters substituted for concealed text (see 'conceallevel')
-        Cursor = { bg = theme.palette.purple, fg = theme.palette.bg }, -- character under the cursor
+        Cursor = { bg = theme.palette.yellow, fg = theme.palette.bg }, -- character under the cursor
         -- lCursor      = {}, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     = {bg = theme.palette.red}, -- like Cursor, but used when in IME mode |CursorIM|
         CursorColumn = { bg = theme.palette.gray }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
         CursorLine = { bg = config.options.cursorline and theme.generated.cursorline or theme.palette.bg }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
         CursorLineNr = {
             bg = config.options.cursorline and theme.generated.cursorline or theme.palette.bg,
-            fg = theme.palette.purple,
+            fg = theme.palette.yellow,
         }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
         CursorLineNrNC = { bg = theme.generated.color_column, fg = theme.palette.gray }, -- CursorLineNr for inactive windows
-        CursorLineNrNCQuickFix = { bg = theme.palette.bg, fg = theme.palette.purple }, -- CursorLineNr for inactive quickfix windows
-        Directory = { fg = theme.palette.blue }, -- directory names (and other special names in listings)
+        CursorLineNrNCQuickFix = { bg = theme.palette.bg, fg = theme.palette.yellow }, -- CursorLineNr for inactive quickfix windows
+        Directory = { fg = theme.palette.blue }, -- directory names (and other speciap names in listings)
         DiffAdd = { bg = theme.generated.diff_add }, -- diff mode: Added line |diff.txt|
         DiffChange = { bg = "NONE" }, -- diff mode: Changed line |diff.txt|
         DiffDelete = { bg = theme.generated.diff_delete },
@@ -53,7 +53,7 @@ function M.groups(theme)
         ModeMsg = { link = "Normal" }, -- 'showmode' message (e.g., "-- INSERT -- ")
         MsgArea = { link = "ModeMsg" }, -- Area for messages and cmdline
         MsgSeparator = { link = "ModeMsg" }, -- Separator for scrolled messages, `msgsep` flag of 'display'
-        MoreMsg = { fg = theme.palette.green }, -- |more-prompt|
+        MoreMsg = { fg = theme.palette.yellow }, -- |more-prompt|
         NonText = { bg = config.options.transparency and "NONE" or theme.palette.bg, fg = theme.palette.gray }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
         Normal = { bg = config.options.transparency and "NONE" or theme.palette.bg, fg = theme.palette.fg }, -- normal text
         NormalNC = {
@@ -103,10 +103,10 @@ function M.groups(theme)
         }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
         TabLine = { bg = config.options.transparency and "NONE" or theme.palette.bg }, -- tab pages line, not active tab page label
         TabLineFill = { bg = config.options.transparency and "NONE" or theme.palette.bg, fg = theme.palette.fg }, -- tab pages line, where there are no labels
-        TabLineSel = { bg = theme.palette.purple, fg = theme.palette.bg }, -- tab pages line, active tab page label
-        TermCursor = { bg = theme.palette.purple }, -- cursor in a focused terminal
+        TabLineSel = { bg = theme.palette.red, fg = theme.palette.bg }, -- tab pages line, active tab page label
+        TermCursor = { bg = theme.palette.red }, -- cursor in a focused terminal
         TermCursorNC = { bg = theme.palette.gray }, -- cursor in an unfocused terminal
-        Title = { fg = theme.palette.green }, -- titles for output from ":set all", ":autocmd"
+        Title = { fg = theme.palette.yellow }, -- titles for output from ":set all", ":autocmd"
         Visual = { bg = theme.generated.selection }, -- Visual mode selection
         VisualNOS = { link = "Visual" }, -- Visual mode selection when vim is "Not Owning the Selection".
         WarningMsg = { fg = theme.palette.yellow }, -- warning messages

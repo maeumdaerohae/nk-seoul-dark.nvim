@@ -6,7 +6,7 @@ local meta = {
 local default_colors = {
     -- cyberpunk
     bg = "#000000",
-    fg = "#abb2bf",
+    fg = "#cacaca",
     red = "#f3505c",
     orange = "#ffc07a",
     yellow = "#eedb85",
