@@ -102,7 +102,7 @@ function M.setup()
 
     Constant = { fg = c.green }, -- (preferred) any constant
     String = { fg = c.yellow }, --   a string constant: "this is a string"
-    Character = { fg = c.pink }, --  a character constant: 'c', '\n'
+    Character = { fg = c.yellow }, --  a character constant: 'c', '\n'
     Number = { fg = c.blue }, --   a number constant: 234, 0xff
     Boolean = { fg = c.kaki }, --  a boolean constant: TRUE, false
     Float = { fg = c.blue }, --    a floating point constant: 2.3e10
@@ -130,7 +130,7 @@ function M.setup()
     Typedef = { fg = c.red }, --  A typedef
 
     Special = { fg = c.cyan }, -- (preferred) any special symbol
-    SpecialChar = { fg = c.magenta }, --  special character in a constant
+    SpecialChar = { fg = c.pink }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     Delimiter = { link = "Special" }, --  character that needs attention
     -- SpecialComment= { }, -- special things inside a comment
@@ -299,8 +299,8 @@ function M.setup()
 
     --- Identifiers
     ["@variable"] = { fg = c.fg, style = options.styles.variables }, -- Any variable name that does not have another highlight.
-    ["@variable.builtin"] = { fg = c.cyan }, -- Variable names that are defined by the languages, like `this` or `self`.
-    ["@module.builtin"] = { fg = c.cyan }, -- Variable names that are defined by the languages, like `this` or `self`.
+    ["@variable.builtin"] = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
+    ["@module.builtin"] = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
 
     FunctionCall = { fg = c.cyan },
     --- Text
