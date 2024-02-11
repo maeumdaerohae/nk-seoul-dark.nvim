@@ -61,7 +61,7 @@ local colors = {
   none = "NONE",
   orange = "#8a5b00",
   pink = "#d35fc1",
-  purple = "#8d6f56",
+  purple = "#826493",
   red = "#c02434",
   red1 = "#c64343",
   teal = "#118c74",
@@ -151,7 +151,7 @@ local highlights = {
     link = "@function.method"
   },
   ["@keyword"] = {
-    fg = "#8d6f56",
+    fg = "#826493",
     style = {
       italic = true
     }
@@ -355,7 +355,7 @@ local highlights = {
   },
   ["@markup.heading.6.markdown"] = {
     bold = true,
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   ["@markup.link"] = {
     fg = "#118c74"
@@ -623,6 +623,9 @@ local highlights = {
   Bold = {
     bold = true
   },
+  Boolean = {
+    fg = "#6d691a"
+  },
   BufferAlternate = {
     bg = "#a8aecb",
     fg = "#666666"
@@ -783,7 +786,7 @@ local highlights = {
     fg = "#645c35"
   },
   Character = {
-    fg = "#1e6b2c"
+    fg = "#d35fc1"
   },
   CmpDocumentation = {
     bg = "#e9e9ec",
@@ -951,7 +954,7 @@ local highlights = {
     fg = "#68709a"
   },
   Constant = {
-    fg = "#8a5b00"
+    fg = "#1e6b2c"
   },
   CurSearch = {
     link = "IncSearch"
@@ -1002,7 +1005,7 @@ local highlights = {
     fg = "#8a5b00"
   },
   DefinitionCount = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   DefinitionIcon = {
     fg = "#2666b1"
@@ -1098,6 +1101,9 @@ local highlights = {
     bold = true,
     fg = "#666666"
   },
+  Float = {
+    fg = "#2666b1"
+  },
   FloatBorder = {
     bg = "#e9e9ec",
     fg = "#2496ac"
@@ -1119,7 +1125,7 @@ local highlights = {
     fg = "#666666"
   },
   Function = {
-    fg = "#2666b1",
+    fg = "#00676e",
     style = {}
   },
   GitGutterAdd = {
@@ -1189,7 +1195,7 @@ local highlights = {
     bg = "#d6d6de"
   },
   Headline6 = {
-    bg = "#dcdbe0"
+    bg = "#dbdbe1"
   },
   Hlargs = {
     fg = "#645c35"
@@ -1213,7 +1219,7 @@ local highlights = {
     nocombine = true
   },
   IblScope = {
-    fg = "#8d6f56",
+    fg = "#826493",
     nocombine = true
   },
   Identifier = {
@@ -1238,14 +1244,14 @@ local highlights = {
     nocombine = true
   },
   IndentBlanklineContextChar = {
-    fg = "#8d6f56",
+    fg = "#826493",
     nocombine = true
   },
   Italic = {
     italic = true
   },
   Keyword = {
-    fg = "#00676e",
+    fg = "#c02434",
     style = {
       italic = true
     }
@@ -1455,7 +1461,7 @@ local highlights = {
     fg = "#2666b1"
   },
   LspSagaCodeActionContent = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   LspSagaCodeActionTitle = {
     fg = "#188092"
@@ -1790,11 +1796,11 @@ local highlights = {
     fg = "#2666b1"
   },
   NeogitRemote = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   NeotestAdapterName = {
     bold = true,
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   NeotestBorder = {
     fg = "#2666b1"
@@ -2018,13 +2024,13 @@ local highlights = {
   },
   NotifyTRACEBorder = {
     bg = "NONE",
-    fg = "#c3bcbd"
+    fg = "#bfb9cb"
   },
   NotifyTRACEIcon = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   NotifyTRACETitle = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   NotifyWARNBody = {
     bg = "NONE",
@@ -2039,6 +2045,9 @@ local highlights = {
   },
   NotifyWARNTitle = {
     fg = "#645c35"
+  },
+  Number = {
+    fg = "#2666b1"
   },
   NvimTreeFolderIcon = {
     bg = "NONE",
@@ -2075,7 +2084,7 @@ local highlights = {
     fg = "#2666b1"
   },
   NvimTreeSpecialFile = {
-    fg = "#8d6f56",
+    fg = "#826493",
     underline = true
   },
   NvimTreeSymlink = {
@@ -2102,7 +2111,7 @@ local highlights = {
     bg = "#a8aecb"
   },
   PreProc = {
-    fg = "#00676e"
+    fg = "#8a5b00"
   },
   Question = {
     fg = "#2666b1"
@@ -2127,13 +2136,13 @@ local highlights = {
     fg = "#c02434"
   },
   RainbowDelimiterViolet = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   RainbowDelimiterYellow = {
     fg = "#645c35"
   },
   ReferencesCount = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   ReferencesIcon = {
     fg = "#2666b1"
@@ -2168,11 +2177,11 @@ local highlights = {
   },
   ScrollbarMisc = {
     bg = "NONE",
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   ScrollbarMiscHandle = {
     bg = "#c4c8da",
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   ScrollbarSearch = {
     bg = "NONE",
@@ -2210,7 +2219,7 @@ local highlights = {
     bg = "#b6bfe2"
   },
   Special = {
-    fg = "#188092"
+    fg = "#c02434"
   },
   SpecialKey = {
     fg = "#8990b3"
@@ -2232,7 +2241,7 @@ local highlights = {
     undercurl = true
   },
   Statement = {
-    fg = "#6467c0"
+    fg = "#c02434"
   },
   StatusLine = {
     bg = "#e9e9ec",
@@ -2243,7 +2252,7 @@ local highlights = {
     fg = "#a8aecb"
   },
   String = {
-    fg = "#1e6b2c"
+    fg = "#645c35"
   },
   Substitute = {
     bg = "#c02434",
@@ -2272,7 +2281,7 @@ local highlights = {
     fg = "#c02434"
   },
   TSRainbowViolet = {
-    fg = "#8d6f56"
+    fg = "#826493"
   },
   TSRainbowYellow = {
     fg = "#645c35"
@@ -2322,7 +2331,7 @@ local highlights = {
     fg = "#6172b0"
   },
   Type = {
-    fg = "#188092"
+    fg = "#c02434"
   },
   Underlined = {
     underline = true
@@ -2506,6 +2515,6 @@ local highlights = {
     fg = "#6467c0"
   },
   rainbowcol7 = {
-    fg = "#8d6f56"
+    fg = "#826493"
   }
 }
