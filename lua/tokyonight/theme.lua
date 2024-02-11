@@ -130,7 +130,7 @@ function M.setup()
     Typedef = { fg = c.red }, --  A typedef
 
     Special = { fg = c.cyan }, -- (preferred) any special symbol
-    -- SpecialChar   = { }, --  special character in a constant
+    SpecialChar = { fg = c.magenta }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     Delimiter = { link = "Special" }, --  character that needs attention
     -- SpecialComment= { }, -- special things inside a comment
@@ -292,7 +292,7 @@ function M.setup()
     ["@property"] = { fg = c.purple },
 
     --- Keywords
-    ["@keyword"] = { fg = c.cyan, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
+    ["@keyword"] = { fg = c.red, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
     ["@keyword.function"] = { fg = c.cyan, style = options.styles.functions }, -- For keywords used to define a fuction.
 
     ["@label"] = { fg = c.cyan }, -- For labels: `label:` in C and `:label:` in Lua.
