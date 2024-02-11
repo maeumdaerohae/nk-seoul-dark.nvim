@@ -1,6 +1,6 @@
 module.exports =  {
   plain: {
-    color: "#666666",
+    color: "#2d2d2d",
     backgroundColor: "#e1e2e7",
   },
   styles: [
@@ -19,19 +19,19 @@ module.exports =  {
     {
       types: ["symbol"],
       style: {
-        color: "#188092",
+        color: "#094752",
       },
     },
     {
       types: ["punctuation"],
       style: {
-        color: "#6467c0",
+        color: "#2f327c",
       },
     },
     {
       types: ["string", "char", "tag", "selector"],
       style: {
-        color: "#1e6b2c",
+        color: "#07290c",
       },
     },
     {
@@ -43,19 +43,19 @@ module.exports =  {
     {
       types: ["operator"],
       style: {
-        color: "#006a83",
+        color: "#002c38",
       },
     },
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#8a5b00",
+        color: "#3f2700",
       },
     },
     {
       types: ["variable"],
       style: {
-        color: "#666666",
+        color: "#2d2d2d",
       },
     },
     {
