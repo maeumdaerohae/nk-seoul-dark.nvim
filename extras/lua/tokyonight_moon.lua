@@ -953,6 +953,9 @@ local highlights = {
   Conceal = {
     fg = "#737aa2"
   },
+  Conditional = {
+    fg = "#ff757f"
+  },
   Constant = {
     fg = "#c3e88d"
   },
@@ -1002,6 +1005,9 @@ local highlights = {
     fg = "#86e1fc"
   },
   Debug = {
+    fg = "#ff966c"
+  },
+  Define = {
     fg = "#ff966c"
   },
   DefinitionCount = {
@@ -1089,6 +1095,9 @@ local highlights = {
   },
   ErrorMsg = {
     fg = "#c53b53"
+  },
+  Exception = {
+    fg = "#ff757f"
   },
   FernBranchText = {
     fg = "#82aaff"
@@ -1223,7 +1232,7 @@ local highlights = {
     nocombine = true
   },
   Identifier = {
-    fg = "#c099ff",
+    fg = "#ff757f",
     style = {}
   },
   IlluminatedWordRead = {
@@ -1238,6 +1247,9 @@ local highlights = {
   IncSearch = {
     bg = "#ff966c",
     fg = "#1b1d2b"
+  },
+  Include = {
+    fg = "#ff966c"
   },
   IndentBlanklineChar = {
     fg = "#3b4261",
@@ -1255,6 +1267,9 @@ local highlights = {
     style = {
       italic = true
     }
+  },
+  Label = {
+    fg = "#ff757f"
   },
   LazyProgressDone = {
     bold = true,
@@ -1484,6 +1499,9 @@ local highlights = {
   LspSignatureActiveParameter = {
     bg = "#262f50",
     bold = true
+  },
+  Macro = {
+    fg = "#908b25"
   },
   MatchParen = {
     bold = true,
@@ -2110,6 +2128,9 @@ local highlights = {
   PmenuThumb = {
     bg = "#3b4261"
   },
+  PreCondit = {
+    fg = "#ff966c"
+  },
   PreProc = {
     fg = "#ff966c"
   },
@@ -2146,6 +2167,9 @@ local highlights = {
   },
   ReferencesIcon = {
     fg = "#82aaff"
+  },
+  Repeat = {
+    fg = "#ff757f"
   },
   ScrollbarError = {
     bg = "NONE",
@@ -2251,8 +2275,14 @@ local highlights = {
     bg = "#1e2030",
     fg = "#3b4261"
   },
+  StorageClass = {
+    fg = "#ff757f"
+  },
   String = {
     fg = "#ffc777"
+  },
+  Structure = {
+    fg = "#ff757f"
   },
   Substitute = {
     bg = "#ff757f",
@@ -2331,6 +2361,9 @@ local highlights = {
     fg = "#828bb8"
   },
   Type = {
+    fg = "#ff757f"
+  },
+  Typedef = {
     fg = "#ff757f"
   },
   Underlined = {

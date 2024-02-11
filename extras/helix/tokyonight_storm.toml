@@ -21,7 +21,7 @@ constructor = { fg = "#f3505c" }
 error = { fg = "#db4b4b" }
 function = { fg = "#00f0ff" }
 "function.builtin" = { fg = "#f3505c" }
-"function.macro" = { fg = "#ffc07a" }
+"function.macro" = { fg = "#908b25" }
 "function.method" = 
 "function.special" = { fg = "#ffc07a" }
 hint = { fg = "#1abc9c" }
