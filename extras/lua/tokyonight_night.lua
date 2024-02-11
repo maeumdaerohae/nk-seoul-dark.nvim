@@ -175,7 +175,7 @@ local highlights = {
     link = "Exception"
   },
   ["@keyword.function"] = {
-    fg = "#f3505c",
+    fg = "#00f0ff",
     style = {}
   },
   ["@keyword.import"] = {
