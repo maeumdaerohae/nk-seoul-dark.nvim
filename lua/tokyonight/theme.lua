@@ -294,7 +294,7 @@ function M.setup()
     ["@label"] = { fg = c.red }, -- For labels: `label:` in C and `:label:` in Lua.
 
     --- Types
-    ["@type.builtin"] = { fg = c.cyan },
+    ["@type.builtin"] = { fg = c.red },
     ["@variable.member"] = { fg = c.purple }, -- For fields.
     ["@property"] = { fg = c.purple },
 
