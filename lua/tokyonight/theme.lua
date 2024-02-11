@@ -367,19 +367,6 @@ function M.setup()
     -- NOTE: maybe add these with distinct highlights?
     -- ["@lsp.typemod.variable.globalScope"] (global variables)
 
-    -- Makefile
-
-    -- -- Define highlighting for targets
-    -- MakefileTarget = { fg = c.green },
-    -- -- Define highlighting for variables
-    -- MakefileVariable = { fg = c.red },
-    -- -- Define highlighting for comments
-    -- MakefileComment = { fg = c.comment },
-    -- -- Define highlighting for commands
-    -- MakefileCommand = { fg = c.yellow },
-    -- MakefileNormal = { fg = c.fg },
-    -- FileType = { make = "Makefile" },
-
     -- ts-rainbow
     rainbowcol1 = { fg = c.red },
     rainbowcol2 = { fg = c.yellow },
@@ -475,12 +462,12 @@ function M.setup()
     TelescopeNormal = { fg = c.fg, bg = c.bg_float },
 
     -- NvimTree
-    NvimTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
+    NvimTreeNormal = { fg = c.fg_sidebar, bg = c.black },
     NvimTreeWinSeparator = {
       fg = options.styles.sidebars == "transparent" and c.border or c.bg_sidebar,
-      bg = c.bg_sidebar,
+    bg = c.black,,
     },
-    NvimTreeNormalNC = { fg = c.fg_sidebar, bg = c.bg_sidebar },
+    NvimTreeNormalNC = { fg = c.fg_sidebar, bg = c.black },
     NvimTreeRootFolder = { fg = c.red, bold = true },
     NvimTreeGitDirty = { fg = c.git.change },
     NvimTreeGitNew = { fg = c.git.add },
