@@ -4,35 +4,38 @@ local M = {}
 
 ---@class Palette
 M.default = {
+  -- default colors
   none = "NONE",
   bg_dark = "#1f2335",
   bg = "#24283b",
   bg_highlight = "#292e42",
   terminal_black = "#414868",
-  fg = "#c0caf5",
+  fg = "#cacaca", --modifed cyber_fg = "#cacaca", default fg = "#a9b1d6"
   fg_dark = "#a9b1d6",
   fg_gutter = "#3b4261",
   dark3 = "#545c7e",
-  comment = "#565f89",
+  comment = "#777777", --modified cyber_comment = "#777777", default comment = "#7aa2f7"
   dark5 = "#737aa2",
   blue0 = "#3d59a1",
-  blue = "#7aa2f7",
-  cyan = "#7dcfff",
+  blue = "#368aec", -- modified cyber_blue = "#368aec", default blue = "#7aa2f7"
+  cyan = "#00f0ff", -- modified cyber_cyan = "#00f0ff", default cyan = "#7dcfff"
   blue1 = "#2ac3de",
   blue2 = "#0db9d7",
   blue5 = "#89ddff",
   blue6 = "#b4f9f8",
   blue7 = "#394b70",
-  magenta = "#bb9af7",
+  magenta = "#b5b6e3", -- modified cyber_magenta = "#b5b6e3", default magenta = "#bb9af7"
   magenta2 = "#ff007c",
-  purple = "#9d7cd8",
-  orange = "#ff9e64",
-  yellow = "#e0af68",
-  green = "#9ece6a",
+  purple = "#93735a", --modified cyber_purple = "#9373a5", default purple = "#9d7cd8"
+  pink = "#d867c6", --added cyber_pink = "#d867c6" default none
+  orange = "#ffc07a", -- modified cyber_orange = "#ffc07a", default orange = "#ff9e64"
+  yellow = "#eedb85", --modified cyber_yellow = "#eedb85", default yellow = "#e0af68"
+  kaki = "#908b25", --added cyber_kaki = "#908b25" default none
+  green = "#51f66f", --modified cyber_green = "#51f66f", default green = "#9ece6a"
   green1 = "#73daca",
   green2 = "#41a6b5",
-  teal = "#1abc9c",
-  red = "#f7768e",
+  teal = "#1abc9c", -- modified cyber_teal = "#26bda4", default teal = "#1abc9c"
+  red = "#f3505c", --modified cyber_red = "#f3505c", default red = "#f7768e"
   red1 = "#db4b4b",
   git = { change = "#6183bb", add = "#449dab", delete = "#914c54" },
   gitSigns = {
@@ -41,7 +44,6 @@ M.default = {
     delete = "#b2555b",
   },
 }
-
 M.night = {
   bg = "#1a1b26",
   bg_dark = "#16161e",

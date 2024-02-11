@@ -114,7 +114,7 @@ function M.setup()
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
     -- Label         = { }, --    case, default, etc.
-    Operator = { fg = c.blue5 }, -- "sizeof", "+", "*", etc.
+    Operator = { fg = c.red }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.cyan, style = options.styles.keywords }, --  any other keyword
     -- Exception     = { }, --  try, catch, throw
 
