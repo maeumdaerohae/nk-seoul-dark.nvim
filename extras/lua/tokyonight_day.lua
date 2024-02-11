@@ -1137,6 +1137,9 @@ local highlights = {
     fg = "#00676e",
     style = {}
   },
+  FunctionCall = {
+    fg = "#00676e"
+  },
   GitGutterAdd = {
     fg = "#399a96"
   },
