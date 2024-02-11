@@ -66,15 +66,15 @@ type = { fg = "#f3505c" }
 "ui.background" = { bg = "bg" }
 "ui.cursor" = { bg = "#cacaca", fg = "#1a1b26" }
 "ui.cursor.match" = { fg = "#ffc07a", modifiers = ["bold"] }
-"ui.linenr" = { fg = "#3b4261" }
-"ui.linenr.select" = { fg = "#737aa2" }
+"ui.linenr" = { fg = "#777777" }
+"ui.linenr.select" = { fg = "#cacaca" }
 "ui.menu" = { bg = "#16161e", fg = "#cacaca" }
 "ui.menu.scroll" = { bg = 2236969, fg = 3883617 }
 "ui.menu.selected" = { bg = "#343a55" }
-"ui.popup" = { fg = "#27a1b9" }
+"ui.popup" = { fg = "#c84551" }
 "ui.selection" = { bg = "bg_highlight" }
 "ui.statusline" = { bg = "#16161e", fg = "#a9b1d6" }
-"ui.statusline.inactive" = { bg = "#16161e", fg = "#3b4261" }
+"ui.statusline.inactive" = { fg = "#1a1b26", underline = { style = "line" } }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
 "ui.text" = { fg = "#cacaca" }
 "ui.text.focus" = { bg = "#283457" }
@@ -107,7 +107,7 @@ blue5 = "#89ddff"
 blue6 = "#b4f9f8"
 blue7 = "#394b70"
 border = "#15161e"
-border_highlight = "#27a1b9"
+border_highlight = "#c84551"
 comment = "#777777"
 cyan = "#00f0ff"
 dark3 = "#545c7e"
