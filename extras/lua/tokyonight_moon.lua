@@ -663,15 +663,15 @@ local highlights = {
     fg = "#ffc777"
   },
   BufferCurrent = {
-    bg = "#1b1d2b",
+    bg = "#222436",
     fg = "#c8d3f5"
   },
   BufferCurrentERROR = {
-    bg = "#1b1d2b",
+    bg = "#222436",
     fg = "#c53b53"
   },
   BufferCurrentHINT = {
-    bg = "#1b1d2b",
+    bg = "#222436",
     fg = "#4fd6be"
   },
   BufferCurrentINFO = {
@@ -738,7 +738,7 @@ local highlights = {
     fg = "#7ca1f2"
   },
   BufferOffset = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#737aa2"
   },
   BufferTabpageFill = {
@@ -746,43 +746,43 @@ local highlights = {
     fg = "#737aa2"
   },
   BufferTabpages = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "NONE"
   },
   BufferVisible = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#c8d3f5"
   },
   BufferVisibleERROR = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#c53b53"
   },
   BufferVisibleHINT = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#4fd6be"
   },
   BufferVisibleINFO = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#0db9d7"
   },
   BufferVisibleIndex = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#0db9d7"
   },
   BufferVisibleMod = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#ffc777"
   },
   BufferVisibleSign = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#0db9d7"
   },
   BufferVisibleTarget = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#ff757f"
   },
   BufferVisibleWARN = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#ffc777"
   },
   Character = {
@@ -2092,11 +2092,11 @@ local highlights = {
     fg = "#3b4261"
   },
   NvimTreeNormal = {
-    bg = "#1b1d2b",
+    bg = "NONE",
     fg = "#828bb8"
   },
   NvimTreeNormalNC = {
-    bg = "#1b1d2b",
+    bg = "NONE",
     fg = "#828bb8"
   },
   NvimTreeOpenedFile = {
@@ -2114,7 +2114,7 @@ local highlights = {
     fg = "#ff757f"
   },
   NvimTreeWinSeparator = {
-    bg = "#1b1d2b",
+    bg = "NONE",
     fg = "#1b1d2b"
   },
   Operator = {
@@ -2327,7 +2327,7 @@ local highlights = {
     fg = "#ffc777"
   },
   TabLine = {
-    bg = "#1b1d2b",
+    bg = "#1e2030",
     fg = "#3b4261"
   },
   TabLineFill = {
