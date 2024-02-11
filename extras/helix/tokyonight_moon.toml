@@ -53,7 +53,7 @@ label = { fg = "#82aaff" }
 "markup.raw.inline" = { bg = "#444a73", fg = "#82aaff" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 namespace = 
-operator = { fg = "#89ddff" }
+operator = { fg = "#ff757f" }
 special = { fg = "#65bcff" }
 string = { fg = "#c3e88d" }
 "string.regexp" = { fg = "#b4f9f8" }
@@ -76,7 +76,7 @@ type = { fg = "#65bcff" }
 "ui.statusline" = { bg = "#1e2030", fg = "#828bb8" }
 "ui.statusline.inactive" = { bg = "#1e2030", fg = "#3b4261" }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
-"ui.text" = { bg = "#222436", fg = "#c8d3f5" }
+"ui.text" = { fg = "#c8d3f5" }
 "ui.text.focus" = { bg = "#2d3f76" }
 "ui.text.inactive" = { fg = "#636da6", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#1e2030", fg = "#c8d3f5" }
@@ -136,9 +136,11 @@ green1 = "#4fd6be"
 green2 = "#41a6b5"
 hint = "#4fd6be"
 info = "#0db9d7"
+kaki = "#908b25"
 magenta = "#c099ff"
 magenta2 = "#ff007c"
 orange = "#ff966c"
+pink = "#d867c6"
 purple = "#fca7ea"
 red = "#ff757f"
 red1 = "#c53b53"
