@@ -2,7 +2,7 @@ attribute = { fg = "#ff966c" }
 comment = { fg = "#636da6", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "#ffc777" }
 constant = { fg = "#c3e88d" }
-"constant.builtin" = { fg = "#ff757f" }
+"constant.builtin" = { fg = "#86e1fc" }
 "constant.builtin.boolean" = { fg = "#908b25" }
 "constant.character" = { fg = "#d867c6" }
 "constant.character.escape" = { fg = "#c099ff" }
@@ -20,7 +20,7 @@ constructor = { fg = "#ff757f" }
 "diff.plus" = { fg = "#b8db87" }
 error = { fg = "#c53b53" }
 function = { fg = "#86e1fc" }
-"function.builtin" = { fg = "#ff757f" }
+"function.builtin" = { fg = "#86e1fc" }
 "function.macro" = { fg = "#908b25" }
 "function.method" = 
 "function.special" = { fg = "#ff966c" }
@@ -54,10 +54,10 @@ label = { fg = "#86e1fc" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 namespace = 
 operator = { fg = "#ff757f" }
-special = { fg = "#ff757f" }
+special = { fg = "#86e1fc" }
 string = { fg = "#ffc777" }
 "string.regexp" = { fg = "#82aaff" }
-"string.special" = { fg = "#ff757f" }
+"string.special" = { fg = "#86e1fc" }
 tag = { fg = "#ff757f" }
 type = { fg = "#ff757f" }
 "type.builtin" = { fg = "#ff757f" }
