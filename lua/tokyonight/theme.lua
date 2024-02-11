@@ -146,8 +146,6 @@ function M.setup()
     Error = { fg = c.error }, -- (preferred) any erroneous construct
     Todo = { bg = c.yellow, fg = c.bg }, -- (preferred) anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
-    SizeT = { fg = c.magenta },
-    PidT = { fg = c.magenta },
     qfLineNr = { fg = c.dark5 },
     qfFileName = { fg = c.blue },
 
@@ -321,7 +319,7 @@ function M.setup()
 
     -- tsx
     ["@tag.tsx"] = { fg = c.red },
-    ["@constructor.tsx"] = { fg = c.blue1 },
+    ["@constructor.tsx"] = { fg = c.magenta },
     ["@tag.delimiter.tsx"] = { fg = util.darken(c.blue, 0.7) },
 
     -- LSP Semantic Token Groups
@@ -360,8 +358,8 @@ function M.setup()
     ["@lsp.typemod.operator.injected"] = { link = "@operator" },
     ["@lsp.typemod.string.injected"] = { link = "@string" },
     ["@lsp.typemod.struct.defaultLibrary"] = { link = "@type.builtin" },
-    ["@lsp.typemod.type.defaultLibrary"] = { fg = util.darken(c.blue1, 0.8) },
-    ["@lsp.typemod.typeAlias.defaultLibrary"] = { fg = util.darken(c.blue1, 0.8) },
+    ["@lsp.typemod.type.defaultLibrary"] = { fg = c.magenta },
+    ["@lsp.typemod.typeAlias.defaultLibrary"] = { fg = c.magenta },
     ["@lsp.typemod.variable.callable"] = { link = "@function" },
     ["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
     ["@lsp.typemod.variable.injected"] = { link = "@variable" },
