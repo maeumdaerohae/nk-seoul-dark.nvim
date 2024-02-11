@@ -493,8 +493,8 @@ function M.setup()
     NvimTreeFolderIcon = { bg = c.none, fg = c.blue },
     -- NvimTreeFolderName= { fg = c.fg_float },
 
-    NeoTreeNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
-    NeoTreeNormalNC = { fg = c.fg_sidebar, bg = c.bg_sidebar },
+    NeoTreeNormal = { fg = c.fg_sidebar, bg = c.black },
+    NeoTreeNormalNC = { fg = c.fg_sidebar, bg = c.black },
     NeoTreeDimText = { fg = c.fg_gutter },
 
     -- Fern
