@@ -2246,7 +2246,7 @@ local highlights = {
     bg = "#2d3f76"
   },
   Special = {
-    fg = "#ff757f"
+    fg = "#86e1fc"
   },
   SpecialKey = {
     fg = "#545c7e"
