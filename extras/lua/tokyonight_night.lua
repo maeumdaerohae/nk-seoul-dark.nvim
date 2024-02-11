@@ -463,7 +463,7 @@ local highlights = {
     link = "Type"
   },
   ["@type.builtin"] = {
-    fg = "#00f0ff"
+    fg = "#f3505c"
   },
   ["@type.definition"] = {
     link = "Typedef"
