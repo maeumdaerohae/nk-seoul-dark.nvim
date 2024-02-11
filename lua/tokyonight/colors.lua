@@ -6,7 +6,7 @@ local M = {}
 M.default = {
   -- default colors
   none = "NONE",
-  bg_dark = "#1f2335",
+  bg_dark = "#000000", -- modified, default bg_dark = "#1f2335"
   bg = "#24283b",
   bg_highlight = "#292e42",
   terminal_black = "#414868",
