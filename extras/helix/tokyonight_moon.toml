@@ -4,7 +4,7 @@ comment = { fg = "#636da6", modifiers = ["italic"] }
 constant = { fg = "#c3e88d" }
 "constant.builtin" = { fg = "#86e1fc" }
 "constant.builtin.boolean" = { fg = "#908b25" }
-"constant.character" = { fg = "#d867c6" }
+"constant.character" = { fg = "#ffc777" }
 "constant.character.escape" = { fg = "#c099ff" }
 "constant.numeric" = { fg = "#82aaff" }
 "constant.numeric.float" = { fg = "#82aaff" }
@@ -57,7 +57,7 @@ operator = { fg = "#ff757f" }
 special = { fg = "#86e1fc" }
 string = { fg = "#ffc777" }
 "string.regexp" = { fg = "#82aaff" }
-"string.special" = { fg = "#c099ff" }
+"string.special" = { fg = "#d867c6" }
 tag = { fg = "#ff757f" }
 type = { fg = "#ff757f" }
 "type.builtin" = { fg = "#ff757f" }
@@ -83,7 +83,7 @@ type = { fg = "#ff757f" }
 "ui.virtual.inlay-hint" = { bg = "#273644", fg = "#4fd6be" }
 "ui.window" = { fg = "#1b1d2b", modifiers = ["bold"] }
 variable = { fg = "#c8d3f5" }
-"variable.builtin" = { fg = "#86e1fc" }
+"variable.builtin" = { fg = "#ff757f" }
 "variable.other.member" = { fg = "#fca7ea" }
 "variable.parameter" = { fg = "#c8d3f5" }
 warning = { fg = "#ffc777" }

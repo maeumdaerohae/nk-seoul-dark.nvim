@@ -4,7 +4,7 @@ comment = { fg = "#777777", modifiers = ["italic"] }
 constant = { fg = "#51f66f" }
 "constant.builtin" = { fg = "#00f0ff" }
 "constant.builtin.boolean" = { fg = "#908b25" }
-"constant.character" = { fg = "#d867c6" }
+"constant.character" = { fg = "#eedb85" }
 "constant.character.escape" = { fg = "#b5b6e3" }
 "constant.numeric" = { fg = "#368aec" }
 "constant.numeric.float" = { fg = "#368aec" }
@@ -57,7 +57,7 @@ operator = { fg = "#f3505c" }
 special = { fg = "#00f0ff" }
 string = { fg = "#eedb85" }
 "string.regexp" = { fg = "#368aec" }
-"string.special" = { fg = "#b5b6e3" }
+"string.special" = { fg = "#d867c6" }
 tag = { fg = "#f3505c" }
 type = { fg = "#f3505c" }
 "type.builtin" = { fg = "#f3505c" }
@@ -83,7 +83,7 @@ type = { fg = "#f3505c" }
 "ui.virtual.inlay-hint" = { bg = "#1a2b32", fg = "#1abc9c" }
 "ui.window" = { fg = "#15161e", modifiers = ["bold"] }
 variable = { fg = "#cacaca" }
-"variable.builtin" = { fg = "#00f0ff" }
+"variable.builtin" = { fg = "#f3505c" }
 "variable.other.member" = { fg = "#9373a5" }
 "variable.parameter" = { fg = "#cacaca" }
 warning = { fg = "#eedb85" }
