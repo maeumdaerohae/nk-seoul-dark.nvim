@@ -151,7 +151,7 @@ local highlights = {
     link = "@function.method"
   },
   ["@keyword"] = {
-    fg = "#826493",
+    fg = "#c02434",
     style = {
       italic = true
     }
@@ -175,7 +175,7 @@ local highlights = {
     link = "Exception"
   },
   ["@keyword.function"] = {
-    fg = "#6467c0",
+    fg = "#c02434",
     style = {}
   },
   ["@keyword.import"] = {
@@ -194,7 +194,7 @@ local highlights = {
     link = "StorageClass"
   },
   ["@label"] = {
-    fg = "#2666b1"
+    fg = "#c02434"
   },
   ["@lsp.type.boolean"] = {
     link = "@boolean"
@@ -370,7 +370,7 @@ local highlights = {
     link = "Underlined"
   },
   ["@markup.list"] = {
-    fg = "#006a83"
+    fg = "#666666"
   },
   ["@markup.list.checked"] = {
     fg = "#387068"
@@ -418,7 +418,7 @@ local highlights = {
     link = "Float"
   },
   ["@operator"] = {
-    fg = "#006a83"
+    fg = "#666666"
   },
   ["@property"] = {
     fg = "#387068"
@@ -427,10 +427,10 @@ local highlights = {
     fg = "#6172b0"
   },
   ["@punctuation.delimiter"] = {
-    fg = "#006a83"
+    fg = "#666666"
   },
   ["@punctuation.special"] = {
-    fg = "#006a83"
+    fg = "#666666"
   },
   ["@string"] = {
     link = "String"
@@ -442,7 +442,7 @@ local highlights = {
     fg = "#6467c0"
   },
   ["@string.regexp"] = {
-    fg = "#2e5857"
+    fg = "#2666b1"
   },
   ["@tag"] = {
     link = "Label"
@@ -482,10 +482,10 @@ local highlights = {
     fg = "#387068"
   },
   ["@variable.parameter"] = {
-    fg = "#645c35"
+    fg = "#666666"
   },
   ["@variable.parameter.builtin"] = {
-    fg = "#5e583b"
+    fg = "#666666"
   },
   ALEErrorSign = {
     fg = "#c64343"
