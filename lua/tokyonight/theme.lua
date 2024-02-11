@@ -129,7 +129,7 @@ function M.setup()
     Structure = { fg = c.cyber_red }, --  struct, union, enum, etc.
     Typedef = { fg = c.cyber_red }, --  A typedef
 
-    Special = { fg = c.cyber_yellow }, -- (preferred) any special symbol
+    Special = { fg = c.cyber_cyan }, -- (preferred) any special symbol
     SpecialChar = { fg = c.cyber_red_light }, --  special character in a constant
     Tag = { fg = c.cyber_neon_green }, --    you can use CTRL-] on this
     Delimiter = { link = "Special" }, --  character that needs attention
