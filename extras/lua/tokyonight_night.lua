@@ -2,11 +2,11 @@ local colors = {
   _name = "tokyonight_night",
   bg = "#1a1b26",
   bg_dark = "#16161e",
-  bg_float = "#16161e",
+  bg_float = "NONE",
   bg_highlight = "#292e42",
   bg_popup = "#16161e",
   bg_search = "#3d59a1",
-  bg_sidebar = "#16161e",
+  bg_sidebar = "NONE",
   bg_statusline = "#16161e",
   bg_visual = "#283457",
   black = "#15161e",
@@ -789,11 +789,11 @@ local highlights = {
     fg = "#eedb85"
   },
   CmpDocumentation = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#cacaca"
   },
   CmpDocumentationBorder = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#27a1b9"
   },
   CmpGhostText = {
@@ -1114,11 +1114,11 @@ local highlights = {
     fg = "#368aec"
   },
   FloatBorder = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#27a1b9"
   },
   FloatTitle = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#27a1b9"
   },
   FoldColumn = {
@@ -1351,10 +1351,10 @@ local highlights = {
     fg = "#27a1b9"
   },
   LspFloatWinNormal = {
-    bg = "#16161e"
+    bg = "NONE"
   },
   LspInfoBorder = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#27a1b9"
   },
   LspInlayHint = {
@@ -1982,7 +1982,7 @@ local highlights = {
     fg = "#cacaca"
   },
   NormalFloat = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#cacaca"
   },
   NormalNC = {
@@ -1990,7 +1990,7 @@ local highlights = {
     fg = "#cacaca"
   },
   NormalSB = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#a9b1d6"
   },
   NotifyBackground = {
@@ -2090,11 +2090,11 @@ local highlights = {
     fg = "#3b4261"
   },
   NvimTreeNormal = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#a9b1d6"
   },
   NvimTreeNormalNC = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#a9b1d6"
   },
   NvimTreeOpenedFile = {
@@ -2112,8 +2112,8 @@ local highlights = {
     fg = "#368aec"
   },
   NvimTreeWinSeparator = {
-    bg = "#16161e",
-    fg = "#16161e"
+    bg = "NONE",
+    fg = "#15161e"
   },
   Operator = {
     fg = "#f3505c"
@@ -2235,7 +2235,7 @@ local highlights = {
     fg = "#3b4261"
   },
   SignColumnSB = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#3b4261"
   },
   Sneak = {
@@ -2337,11 +2337,11 @@ local highlights = {
     fg = "#00f0ff"
   },
   TelescopeBorder = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#27a1b9"
   },
   TelescopeNormal = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#cacaca"
   },
   Title = {
@@ -2360,7 +2360,7 @@ local highlights = {
     fg = "#b5b6e3"
   },
   TroubleNormal = {
-    bg = "#16161e",
+    bg = "NONE",
     fg = "#cacaca"
   },
   TroubleText = {
@@ -2394,7 +2394,7 @@ local highlights = {
     fg = "#b5b6e3"
   },
   WhichKeyFloat = {
-    bg = "#16161e"
+    bg = "NONE"
   },
   WhichKeyGroup = {
     fg = "#368aec"
@@ -2435,7 +2435,7 @@ local highlights = {
     fg = "#0db9d7"
   },
   debugPC = {
-    bg = "#16161e"
+    bg = "NONE"
   },
   diffAdded = {
     fg = "#449dab"
