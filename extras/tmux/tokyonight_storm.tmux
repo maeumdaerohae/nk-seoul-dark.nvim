@@ -13,7 +13,7 @@ set -g pane-active-border-style "fg=#368aec"
 set -g status "on"
 set -g status-justify "left"
 
-set -g status-style "fg=#368aec,bg=#000000"
+set -g status-style "fg=#368aec,bg=#1f2335"
 
 set -g status-left-length "100"
 set -g status-right-length "100"
@@ -21,18 +21,18 @@ set -g status-right-length "100"
 set -g status-left-style NONE
 set -g status-right-style NONE
 
-set -g status-left "#[fg=#1d202f,bg=#368aec,bold] #S #[fg=#368aec,bg=#000000,nobold,nounderscore,noitalics]"
-set -g status-right "#[fg=#000000,bg=#000000,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#000000] #{prefix_highlight} #[fg=#3b4261,bg=#000000,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#3b4261] %Y-%m-%d  %I:%M %p #[fg=#368aec,bg=#3b4261,nobold,nounderscore,noitalics]#[fg=#1d202f,bg=#368aec,bold] #h "
+set -g status-left "#[fg=#1d202f,bg=#368aec,bold] #S #[fg=#368aec,bg=#1f2335,nobold,nounderscore,noitalics]"
+set -g status-right "#[fg=#1f2335,bg=#1f2335,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#1f2335] #{prefix_highlight} #[fg=#3b4261,bg=#1f2335,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#3b4261] %Y-%m-%d  %I:%M %p #[fg=#368aec,bg=#3b4261,nobold,nounderscore,noitalics]#[fg=#1d202f,bg=#368aec,bold] #h "
 if-shell '[ "$(tmux show-option -gqv "clock-mode-style")" == "24" ]' {
-  set -g status-right "#[fg=#000000,bg=#000000,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#000000] #{prefix_highlight} #[fg=#3b4261,bg=#000000,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#3b4261] %Y-%m-%d  %H:%M #[fg=#368aec,bg=#3b4261,nobold,nounderscore,noitalics]#[fg=#1d202f,bg=#368aec,bold] #h "
+  set -g status-right "#[fg=#1f2335,bg=#1f2335,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#1f2335] #{prefix_highlight} #[fg=#3b4261,bg=#1f2335,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#3b4261] %Y-%m-%d  %H:%M #[fg=#368aec,bg=#3b4261,nobold,nounderscore,noitalics]#[fg=#1d202f,bg=#368aec,bold] #h "
 }
 
-setw -g window-status-activity-style "underscore,fg=#a9b1d6,bg=#000000"
+setw -g window-status-activity-style "underscore,fg=#a9b1d6,bg=#1f2335"
 setw -g window-status-separator ""
-setw -g window-status-style "NONE,fg=#a9b1d6,bg=#000000"
-setw -g window-status-format "#[fg=#000000,bg=#000000,nobold,nounderscore,noitalics]#[default] #I  #W #F #[fg=#000000,bg=#000000,nobold,nounderscore,noitalics]"
-setw -g window-status-current-format "#[fg=#000000,bg=#3b4261,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#3b4261,bold] #I  #W #F #[fg=#3b4261,bg=#000000,nobold,nounderscore,noitalics]"
+setw -g window-status-style "NONE,fg=#a9b1d6,bg=#1f2335"
+setw -g window-status-format "#[fg=#1f2335,bg=#1f2335,nobold,nounderscore,noitalics]#[default] #I  #W #F #[fg=#1f2335,bg=#1f2335,nobold,nounderscore,noitalics]"
+setw -g window-status-current-format "#[fg=#1f2335,bg=#3b4261,nobold,nounderscore,noitalics]#[fg=#368aec,bg=#3b4261,bold] #I  #W #F #[fg=#3b4261,bg=#1f2335,nobold,nounderscore,noitalics]"
 
 # tmux-plugins/tmux-prefix-highlight support
-set -g @prefix_highlight_output_prefix "#[fg=#eedb85]#[bg=#000000]#[fg=#000000]#[bg=#eedb85]"
+set -g @prefix_highlight_output_prefix "#[fg=#eedb85]#[bg=#1f2335]#[fg=#1f2335]#[bg=#eedb85]"
 set -g @prefix_highlight_output_suffix ""

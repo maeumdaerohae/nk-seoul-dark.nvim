@@ -1,13 +1,13 @@
 local colors = {
   _name = "tokyonight_storm",
   bg = "#24283b",
-  bg_dark = "#000000",
+  bg_dark = "#1f2335",
   bg_float = "NONE",
   bg_highlight = "#292e42",
-  bg_popup = "#000000",
+  bg_popup = "#1f2335",
   bg_search = "#3d59a1",
   bg_sidebar = "NONE",
-  bg_statusline = "#000000",
+  bg_statusline = "#1f2335",
   bg_visual = "#2e3c64",
   black = "#1d202f",
   blue = "#368aec",
@@ -738,7 +738,7 @@ local highlights = {
     fg = "#6183bb"
   },
   BufferOffset = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#737aa2"
   },
   BufferTabpageFill = {
@@ -746,43 +746,43 @@ local highlights = {
     fg = "#737aa2"
   },
   BufferTabpages = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "NONE"
   },
   BufferVisible = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#cacaca"
   },
   BufferVisibleERROR = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#db4b4b"
   },
   BufferVisibleHINT = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#1abc9c"
   },
   BufferVisibleINFO = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#0db9d7"
   },
   BufferVisibleIndex = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#0db9d7"
   },
   BufferVisibleMod = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#eedb85"
   },
   BufferVisibleSign = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#0db9d7"
   },
   BufferVisibleTarget = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#f3505c"
   },
   BufferVisibleWARN = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#eedb85"
   },
   Character = {
@@ -939,7 +939,7 @@ local highlights = {
     fg = "#777777"
   },
   CodeBlock = {
-    bg = "#000000"
+    bg = "#1f2335"
   },
   ColorColumn = {
     bg = "#1d202f"
@@ -1627,7 +1627,7 @@ local highlights = {
     bg = "#1d202f"
   },
   MiniTablineHidden = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#737aa2"
   },
   MiniTablineModifiedCurrent = {
@@ -1635,19 +1635,19 @@ local highlights = {
     fg = "#eedb85"
   },
   MiniTablineModifiedHidden = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#b1a56f"
   },
   MiniTablineModifiedVisible = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#eedb85"
   },
   MiniTablineTabpagesection = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "NONE"
   },
   MiniTablineVisible = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#cacaca"
   },
   MiniTestEmphasis = {
@@ -2121,11 +2121,11 @@ local highlights = {
     fg = "#f3505c"
   },
   Pmenu = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#cacaca"
   },
   PmenuSbar = {
-    bg = "#0d0d0d"
+    bg = "#2a2e3f"
   },
   PmenuSel = {
     bg = "#363d59"
@@ -2327,7 +2327,7 @@ local highlights = {
     fg = "#eedb85"
   },
   TabLine = {
-    bg = "#000000",
+    bg = "#1f2335",
     fg = "#3b4261"
   },
   TabLineFill = {
