@@ -61,7 +61,7 @@ module.exports =  {
     {
       types: ["comment"],
       style: {
-        color: "#565f89",
+        color: "#777777",
         fontStyle: "italic",
       },
     },

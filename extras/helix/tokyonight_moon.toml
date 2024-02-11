@@ -1,15 +1,15 @@
-attribute = { fg = "#86e1fc" }
+attribute = { fg = "#ffc07a" }
 comment = { fg = "#636da6", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "#ffc777" }
-constant = { fg = "#ff966c" }
-"constant.builtin" = { fg = "#65bcff" }
-"constant.builtin.boolean" = { fg = "#ff966c" }
-"constant.character" = { fg = "#c3e88d" }
+constant = { fg = "#51f66f" }
+"constant.builtin" = { fg = "#f2f20d" }
+"constant.builtin.boolean" = { fg = "#908b25" }
+"constant.character" = { fg = "#d867c6" }
 "constant.character.escape" = { fg = "#c099ff" }
-"constant.numeric" = { fg = "#ff966c" }
-"constant.numeric.float" = { fg = "#ff966c" }
-"constant.numeric.integer" = { fg = "#ff966c" }
-constructor = { fg = "#65bcff" }
+"constant.numeric" = { fg = "#368aec" }
+"constant.numeric.float" = { fg = "#368aec" }
+"constant.numeric.integer" = { fg = "#368aec" }
+constructor = { fg = "#f3505c" }
 "diagnostic.error" = { underline = { style = "curl" } }
 "diagnostic.hint" = { underline = { style = "curl" } }
 "diagnostic.info" = { underline = { style = "curl" } }
@@ -19,22 +19,22 @@ constructor = { fg = "#65bcff" }
 "diff.minus" = { fg = "#e26a75" }
 "diff.plus" = { fg = "#b8db87" }
 error = { fg = "#c53b53" }
-function = { fg = "#82aaff" }
-"function.builtin" = { fg = "#65bcff" }
-"function.macro" = { fg = "#86e1fc" }
+function = { fg = "#00f0ff" }
+"function.builtin" = { fg = "#f2f20d" }
+"function.macro" = { fg = "#908b25" }
 "function.method" = 
-"function.special" = { fg = "#86e1fc" }
+"function.special" = { fg = "#ffc07a" }
 hint = { fg = "#4fd6be" }
 info = { fg = "#0db9d7" }
 keyword = { fg = "#fca7ea", modifiers = ["italic"] }
-"keyword.control" = { fg = "#c099ff" }
-"keyword.control.conditional" = { fg = "#c099ff" }
-"keyword.control.exception" = { fg = "#c099ff" }
-"keyword.control.repeat" = { fg = "#c099ff" }
+"keyword.control" = { fg = "#f3505c" }
+"keyword.control.conditional" = { fg = "#f3505c" }
+"keyword.control.exception" = { fg = "#f3505c" }
+"keyword.control.repeat" = { fg = "#f3505c" }
 "keyword.control.return" = { fg = "#fca7ea", modifiers = ["italic"] }
-"keyword.directive" = { fg = "#86e1fc" }
+"keyword.directive" = { fg = "#ffc07a" }
 "keyword.function" = { fg = "#c099ff" }
-"keyword.operator" = { fg = "#c099ff" }
+"keyword.operator" = { fg = "#f3505c" }
 label = { fg = "#82aaff" }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.heading" = 
@@ -53,16 +53,16 @@ label = { fg = "#82aaff" }
 "markup.raw.inline" = { bg = "#444a73", fg = "#82aaff" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 namespace = 
-operator = { fg = "#89ddff" }
-special = { fg = "#65bcff" }
-string = { fg = "#c3e88d" }
+operator = { fg = "#f3505c" }
+special = { fg = "#f2f20d" }
+string = { fg = "#eedb85" }
 "string.regexp" = { fg = "#b4f9f8" }
-"string.special" = { fg = "#65bcff" }
-tag = { fg = "#c099ff" }
-type = { fg = "#65bcff" }
+"string.special" = { fg = "#ff9999" }
+tag = { fg = "#f3505c" }
+type = { fg = "#f3505c" }
 "type.builtin" = { fg = "#589ed7" }
-"type.enum" = { fg = "#65bcff" }
-"type.enum.variant" = { fg = "#ff966c" }
+"type.enum" = { fg = "#f3505c" }
+"type.enum.variant" = { fg = "#51f66f" }
 "ui.background" = { bg = "bg" }
 "ui.cursor" = { bg = "#c8d3f5", fg = "#222436" }
 "ui.cursor.match" = { fg = "#ff966c", modifiers = ["bold"] }
@@ -76,7 +76,7 @@ type = { fg = "#65bcff" }
 "ui.statusline" = { bg = "#1e2030", fg = "#828bb8" }
 "ui.statusline.inactive" = { bg = "#1e2030", fg = "#3b4261" }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
-"ui.text" = { bg = "#222436", fg = "#c8d3f5" }
+"ui.text" = { fg = "#c8d3f5" }
 "ui.text.focus" = { bg = "#2d3f76" }
 "ui.text.inactive" = { fg = "#636da6", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#1e2030", fg = "#c8d3f5" }
@@ -110,6 +110,29 @@ border = "#1b1d2b"
 border_highlight = "#589ed7"
 comment = "#636da6"
 cyan = "#86e1fc"
+cyber_black_transparent = "#000000"
+cyber_blue = "#368aec"
+cyber_cyan = "#00f0ff"
+cyber_cyan_light = "#94fff4"
+cyber_green = "#47eb47"
+cyber_green_light = "#99ff99"
+cyber_grey = "#777777"
+cyber_grey_light = "#dbdbdb"
+cyber_kaki = "#908b25"
+cyber_neon_green = "#51f66f"
+cyber_orange_light = "#ffc07a"
+cyber_pink = "#d867c6"
+cyber_pure_white = "#f0f0f0"
+cyber_purple_dark = "#9373a5"
+cyber_purple_light = "#b9bcd1"
+cyber_purple_normal = "#b5b6e3"
+cyber_red = "#f3505c"
+cyber_red_dark = "#603336"
+cyber_red_error = "#ff0000"
+cyber_red_light = "#ff9999"
+cyber_white = "#cacaca"
+cyber_yellow = "#f2f20d"
+cyber_yellow_light = "#eedb85"
 dark3 = "#545c7e"
 dark5 = "#737aa2"
 "delta.add" = "#305f6f"
