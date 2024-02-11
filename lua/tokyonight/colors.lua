@@ -13,7 +13,7 @@ M.default = {
   black = "#000000", --added cyber_black = "#000000" default none
   fg = "#cacaca", --modifed cyber_fg = "#cacaca", default fg = "#a9b1d6"
   fg_dark = "#a9b1d6",
-  fg_gutter = "#3b4261",
+  fg_gutter = "#3b4261", --modified default fg_gutter = "#3b4261"
   dark3 = "#545c7e",
   comment = "#777777", --modified cyber_comment = "#777777", default comment = "#7aa2f7"
   dark5 = "#737aa2",
