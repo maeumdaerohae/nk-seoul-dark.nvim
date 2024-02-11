@@ -286,17 +286,16 @@ function M.setup()
     ["@constructor"] = { fg = c.fg }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     ["@variable.parameter"] = { fg = c.fg }, -- For parameters of a function.
     ["@variable.parameter.builtin"] = { fg = c.fg }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
+    --- Types
+    ["@type.builtin"] = { fg = c.red },
+    ["@variable.member"] = { fg = c.purple }, -- For fields.
+    ["@property"] = { fg = c.purple },
 
     --- Keywords
     ["@keyword"] = { fg = c.cyan, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
     ["@keyword.function"] = { fg = c.cyan, style = options.styles.functions }, -- For keywords used to define a fuction.
 
     ["@label"] = { fg = c.cyan }, -- For labels: `label:` in C and `:label:` in Lua.
-
-    --- Types
-    ["@type.builtin"] = { fg = c.red },
-    ["@variable.member"] = { fg = c.purple }, -- For fields.
-    ["@property"] = { fg = c.purple },
 
     --- Identifiers
     ["@variable"] = { fg = c.fg, style = options.styles.variables }, -- Any variable name that does not have another highlight.
