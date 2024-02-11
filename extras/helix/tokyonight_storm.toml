@@ -60,7 +60,7 @@ string = { fg = "#eedb85" }
 "string.special" = { fg = "#f3505c" }
 tag = { fg = "#f3505c" }
 type = { fg = "#f3505c" }
-"type.builtin" = { fg = "#29a4bd" }
+"type.builtin" = { fg = "#f3505c" }
 "type.enum" = { fg = "#f3505c" }
 "type.enum.variant" = { fg = "#51f66f" }
 "ui.background" = { bg = "bg" }
@@ -84,7 +84,7 @@ type = { fg = "#f3505c" }
 "ui.window" = { fg = "#1d202f", modifiers = ["bold"] }
 variable = { fg = "#cacaca" }
 "variable.builtin" = { fg = "#f3505c" }
-"variable.other.member" = { fg = "#73daca" }
+"variable.other.member" = { fg = "#9373a5" }
 "variable.parameter" = { fg = "#cacaca" }
 warning = { fg = "#eedb85" }
 
