@@ -367,6 +367,23 @@ function M.setup()
     -- NOTE: maybe add these with distinct highlights?
     -- ["@lsp.typemod.variable.globalScope"] (global variables)
 
+    -- Makefile
+
+    -- Define highlighting for targets
+    MakefileTarget = { fg = c.green },
+
+    -- Define highlighting for variables
+    MakefileVariable = { fg = c.red },
+
+    -- Define highlighting for comments
+    MakefileComment = { fg = c.comment },
+
+    -- Define highlighting for commands
+    MakefileCommand = { fg = c.yellow },
+
+    MakefileNormal = { fg = c.fg },
+
+    FileType = { make = "Makefile" },
     -- ts-rainbow
     rainbowcol1 = { fg = c.red },
     rainbowcol2 = { fg = c.yellow },
