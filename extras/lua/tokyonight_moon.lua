@@ -55,10 +55,12 @@ local colors = {
   green2 = "#41a6b5",
   hint = "#4fd6be",
   info = "#0db9d7",
+  kaki = "#908b25",
   magenta = "#c099ff",
   magenta2 = "#ff007c",
   none = "NONE",
   orange = "#ff966c",
+  pink = "#d867c6",
   purple = "#fca7ea",
   red = "#ff757f",
   red1 = "#c53b53",
@@ -1105,7 +1107,7 @@ local highlights = {
     fg = "#589ed7"
   },
   FoldColumn = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#636da6"
   },
   Folded = {
@@ -1523,7 +1525,7 @@ local highlights = {
     }
   },
   MiniStarterItem = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   MiniStarterItemBullet = {
@@ -1949,7 +1951,7 @@ local highlights = {
     fg = "#545c7e"
   },
   Normal = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   NormalFloat = {
@@ -1957,7 +1959,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   NormalNC = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   NormalSB = {
@@ -1969,11 +1971,11 @@ local highlights = {
     fg = "#c8d3f5"
   },
   NotifyDEBUGBody = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   NotifyDEBUGBorder = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#363a58"
   },
   NotifyDEBUGIcon = {
@@ -1983,11 +1985,11 @@ local highlights = {
     fg = "#636da6"
   },
   NotifyERRORBody = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   NotifyERRORBorder = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#532b3f"
   },
   NotifyERRORIcon = {
@@ -1997,11 +1999,11 @@ local highlights = {
     fg = "#c53b53"
   },
   NotifyINFOBody = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   NotifyINFOBorder = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#1c5166"
   },
   NotifyINFOIcon = {
@@ -2011,11 +2013,11 @@ local highlights = {
     fg = "#0db9d7"
   },
   NotifyTRACEBody = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   NotifyTRACEBorder = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#634b6c"
   },
   NotifyTRACEIcon = {
@@ -2025,11 +2027,11 @@ local highlights = {
     fg = "#fca7ea"
   },
   NotifyWARNBody = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#c8d3f5"
   },
   NotifyWARNBorder = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#64554a"
   },
   NotifyWARNIcon = {
@@ -2084,7 +2086,7 @@ local highlights = {
     fg = "#1e2030"
   },
   Operator = {
-    fg = "#89ddff"
+    fg = "#ff757f"
   },
   Pmenu = {
     bg = "#1e2030",
@@ -2193,7 +2195,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   SignColumn = {
-    bg = "#222436",
+    bg = "NONE",
     fg = "#3b4261"
   },
   SignColumnSB = {

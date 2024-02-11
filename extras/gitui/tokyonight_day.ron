@@ -1,23 +1,23 @@
 (
-  selected_tab: Rgb(152,84,241), // magenta #9854f1
-  command_fg: Rgb(132,140,181), // comment #848cb5
+  selected_tab: Rgb(100,103,192), // magenta #6467c0
+  command_fg: Rgb(119,119,119), // comment #777777
   selection_bg: Rgb(196,200,218), // bg_highlight #c4c8da
-  selection_fg: Rgb(0,113,151), // cyan #007197
+  selection_fg: Rgb(0,103,110), // cyan #00676e
   cmdbar_bg: Rgb(225,226,231), // bg #e1e2e7
   cmdbar_extra_lines_bg: Rgb(225,226,231), // bg #e1e2e7
-  disabled_fg: Rgb(132,140,181), // comment #848cb5
-  diff_line_add: Rgb(88,117,57), // green #587539
-  diff_line_delete: Rgb(245,42,101), // red #f52a65
+  disabled_fg: Rgb(119,119,119), // comment #777777
+  diff_line_add: Rgb(30,107,44), // green #1e6b2c
+  diff_line_delete: Rgb(192,36,52), // red #c02434
   diff_file_added: Rgb(56,112,104), // green1 #387068
   diff_file_removed: Rgb(198,67,67), // red1 #c64343
   diff_file_moved: Rgb(210,0,101), // magenta2 #d20065
-  diff_file_modified: Rgb(140,108,62), // yellow #8c6c3e
-  commit_hash: Rgb(152,84,241), // magenta #9854f1
+  diff_file_modified: Rgb(100,92,53), // yellow #645c35
+  commit_hash: Rgb(100,103,192), // magenta #6467c0
   commit_time: Rgb(17,140,116), // teal #118c74
-  commit_author: Rgb(88,117,57), // green #587539
-  danger_fg: Rgb(245,42,101), // red #f52a65
+  commit_author: Rgb(30,107,44), // green #1e6b2c
+  danger_fg: Rgb(192,36,52), // red #c02434
   push_gauge_bg: Rgb(225,226,231), // bg #e1e2e7
-  push_gauge_fg: Rgb(55,96,191), // fg #3760bf
+  push_gauge_fg: Rgb(102,102,102), // fg #666666
   tag_fg: Rgb(210,0,101), // magenta2 #d20065
-  branch_fg: Rgb(140,108,62), // yellow #8c6c3e
+  branch_fg: Rgb(100,92,53), // yellow #645c35
 )
