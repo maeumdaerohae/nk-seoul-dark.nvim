@@ -302,6 +302,8 @@ function M.setup()
     ["@variable.builtin"] = { fg = c.cyan }, -- Variable names that are defined by the languages, like `this` or `self`.
     ["@module.builtin"] = { fg = c.cyan }, -- Variable names that are defined by the languages, like `this` or `self`.
 
+    FunctionCall = { fg = c.cyan },
+
     --- Text
     -- ["@markup.raw.markdown"] = { fg = c.blue },
     ["@markup.raw.markdown_inline"] = { bg = c.terminal_black, fg = c.blue },
