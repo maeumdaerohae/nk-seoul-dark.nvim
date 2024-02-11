@@ -983,23 +983,23 @@ local highlights = {
     bg = "#383a42"
   },
   DashboardCenter = {
-    fg = "#b5b6e3"
+    fg = "#eedb85"
   },
   DashboardDesc = {
-    fg = "#00f0ff"
+    fg = "#eedb85"
   },
   DashboardFooter = {
-    fg = "#2ac3de"
+    fg = "#eedb85"
   },
   DashboardHeader = {
-    fg = "#368aec"
+    fg = "#f3505c"
   },
   DashboardIcon = {
     bold = true,
     fg = "#00f0ff"
   },
   DashboardKey = {
-    fg = "#ffc07a"
+    fg = "#51f66f"
   },
   DashboardShortCut = {
     fg = "#00f0ff"
