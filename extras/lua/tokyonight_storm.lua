@@ -121,7 +121,7 @@ local highlights = {
     fg = "#cacaca"
   },
   ["@constructor.tsx"] = {
-    fg = "#2ac3de"
+    fg = "#b5b6e3"
   },
   ["@diff.delta"] = {
     link = "DiffChange"
@@ -301,10 +301,10 @@ local highlights = {
     link = "@type.builtin"
   },
   ["@lsp.typemod.type.defaultLibrary"] = {
-    fg = "#29a4bd"
+    fg = "#b5b6e3"
   },
   ["@lsp.typemod.typeAlias.defaultLibrary"] = {
-    fg = "#29a4bd"
+    fg = "#b5b6e3"
   },
   ["@lsp.typemod.variable.callable"] = {
     link = "@function"
@@ -2118,9 +2118,6 @@ local highlights = {
   Operator = {
     fg = "#f3505c"
   },
-  PidT = {
-    fg = "#b5b6e3"
-  },
   Pmenu = {
     bg = "#1f2335",
     fg = "#cacaca"
@@ -2240,9 +2237,6 @@ local highlights = {
   SignColumnSB = {
     bg = "#1f2335",
     fg = "#3b4261"
-  },
-  SizeT = {
-    fg = "#b5b6e3"
   },
   Sneak = {
     bg = "#b5b6e3",
