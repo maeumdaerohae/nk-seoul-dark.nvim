@@ -60,7 +60,7 @@ string = { fg = "#ffc777" }
 "string.special" = { fg = "#ff757f" }
 tag = { fg = "#ff757f" }
 type = { fg = "#ff757f" }
-"type.builtin" = { fg = "#ff757f" }
+"type.builtin" = { fg = "#86e1fc" }
 "type.enum" = { fg = "#ff757f" }
 "type.enum.variant" = { fg = "#c3e88d" }
 "ui.background" = { bg = "bg" }
