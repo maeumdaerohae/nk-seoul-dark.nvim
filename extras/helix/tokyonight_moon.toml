@@ -83,7 +83,7 @@ type = { fg = "#ff757f" }
 "ui.virtual.inlay-hint" = { bg = "#273644", fg = "#4fd6be" }
 "ui.window" = { fg = "#1b1d2b", modifiers = ["bold"] }
 variable = { fg = "#c8d3f5" }
-"variable.builtin" = { fg = "#ff757f" }
+"variable.builtin" = { fg = "#86e1fc" }
 "variable.other.member" = { fg = "#fca7ea" }
 "variable.parameter" = { fg = "#c8d3f5" }
 warning = { fg = "#ffc777" }
