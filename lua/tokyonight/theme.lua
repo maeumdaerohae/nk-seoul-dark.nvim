@@ -126,7 +126,7 @@ function M.setup()
 
     Type = { fg = c.red }, -- (preferred) int, long, char, etc.
     StorageClass = { fg = c.red }, -- static, register, volatile, etc.
-    Structure = { fg = c.red }, --  struct, union, enum, etc.
+    Structure = { fg = c.magenta }, --  struct, union, enum, etc.
     Typedef = { fg = c.red }, --  A typedef
 
     Special = { fg = c.red }, -- (preferred) any special symbol
@@ -294,7 +294,7 @@ function M.setup()
     ["@label"] = { fg = c.red }, -- For labels: `label:` in C and `:label:` in Lua.
 
     --- Types
-    ["@type.builtin"] = { fg = c.red },
+    ["@type.builtin"] = { fg = c.cyan },
     ["@variable.member"] = { fg = c.purple }, -- For fields.
     ["@property"] = { fg = c.purple },
 
