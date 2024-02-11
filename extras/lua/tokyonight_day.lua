@@ -35,10 +35,10 @@ local colors = {
   },
   error = "#c64343",
   fg = "#666666",
-  fg_dark = "#ffffff",
+  fg_dark = "#6172b0",
   fg_float = "#666666",
   fg_gutter = "#a8aecb",
-  fg_sidebar = "#ffffff",
+  fg_sidebar = "#6172b0",
   git = {
     add = "#4197a4",
     change = "#506d9c",
@@ -424,7 +424,7 @@ local highlights = {
     fg = "#826493"
   },
   ["@punctuation.bracket"] = {
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   ["@punctuation.delimiter"] = {
     fg = "#666666"
@@ -844,7 +844,7 @@ local highlights = {
   },
   CmpItemKindDefault = {
     bg = "NONE",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   CmpItemKindEnum = {
     link = "LspKindEnum"
@@ -1569,15 +1569,15 @@ local highlights = {
   },
   MiniStatuslineDevinfo = {
     bg = "#c4c8da",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   MiniStatuslineFileinfo = {
     bg = "#c4c8da",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   MiniStatuslineFilename = {
     bg = "#a8aecb",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   MiniStatuslineInactive = {
     bg = "#e9e9ec",
@@ -1664,13 +1664,13 @@ local highlights = {
   },
   ModeMsg = {
     bold = true,
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   MoreMsg = {
     fg = "#2666b1"
   },
   MsgArea = {
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NavicIconsArray = {
     link = "LspKindArray"
@@ -1787,11 +1787,11 @@ local highlights = {
   },
   NeoTreeNormal = {
     bg = "#e9e9ed",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NeoTreeNormalNC = {
     bg = "#e9e9ed",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NeogitBranch = {
     fg = "#6467c0"
@@ -1802,7 +1802,7 @@ local highlights = {
   },
   NeogitDiffContextHighlight = {
     bg = "#c3c6d8",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NeogitDiffDeleteHighlight = {
     bg = "#dfccd4",
@@ -1830,7 +1830,7 @@ local highlights = {
     fg = "#2666b1"
   },
   NeotestExpandMarker = {
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NeotestFailed = {
     fg = "#c02434"
@@ -1842,7 +1842,7 @@ local highlights = {
     fg = "#645c35"
   },
   NeotestIndent = {
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NeotestMarked = {
     fg = "#2666b1"
@@ -1863,7 +1863,7 @@ local highlights = {
     fg = "#2666b1"
   },
   NeotestTest = {
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NeotestWinSelect = {
     fg = "#2666b1"
@@ -1888,7 +1888,7 @@ local highlights = {
   },
   NoiceCompletionItemKindDefault = {
     bg = "NONE",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NoiceCompletionItemKindEnum = {
     link = "LspKindEnum"
@@ -1991,7 +1991,7 @@ local highlights = {
   },
   NormalSB = {
     bg = "#e9e9ec",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NotifyBackground = {
     bg = "#e1e2e7",
@@ -2084,18 +2084,18 @@ local highlights = {
     fg = "#4197a4"
   },
   NvimTreeImageFile = {
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NvimTreeIndentMarker = {
     fg = "#a8aecb"
   },
   NvimTreeNormal = {
     bg = "#e9e9ec",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NvimTreeNormalNC = {
     bg = "#e9e9ec",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   NvimTreeOpenedFile = {
     bg = "#c4c8da"
@@ -2275,7 +2275,7 @@ local highlights = {
   },
   StatusLine = {
     bg = "#e9e9ec",
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   StatusLineNC = {
     bg = "#e9e9ec",
@@ -2364,7 +2364,7 @@ local highlights = {
     fg = "#666666"
   },
   TroubleText = {
-    fg = "#ffffff"
+    fg = "#6172b0"
   },
   Type = {
     fg = "#c02434"
