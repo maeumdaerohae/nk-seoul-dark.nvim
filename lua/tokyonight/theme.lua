@@ -300,8 +300,8 @@ function M.setup()
 
     --- Identifiers
     ["@variable"] = { fg = c.fg, style = options.styles.variables }, -- Any variable name that does not have another highlight.
-    ["@variable.builtin"] = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
-    ["@module.builtin"] = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
+    ["@variable.builtin"] = { fg = c.cyan }, -- Variable names that are defined by the languages, like `this` or `self`.
+    ["@module.builtin"] = { fg = c.cyan }, -- Variable names that are defined by the languages, like `this` or `self`.
 
     --- Text
     -- ["@markup.raw.markdown"] = { fg = c.blue },
