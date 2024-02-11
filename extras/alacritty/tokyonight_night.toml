@@ -17,7 +17,7 @@ yellow = '#eedb85'
 blue = '#368aec'
 magenta = '#b5b6e3'
 cyan = '#00f0ff'
-white = '#a9b1d6'
+white = '#000000'
 
 # Bright colors
 [colors.bright]
