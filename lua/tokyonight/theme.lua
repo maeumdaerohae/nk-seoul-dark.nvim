@@ -496,7 +496,7 @@ function M.setup()
     NeoTreeNormal = { fg = c.fg_sidebar, bg = c.black },
     NeoTreeNormalNC = { fg = c.fg_sidebar, bg = c.black },
     NeoTreeDimText = { fg = c.fg_gutter },
-
+    vim.cmd([[hi NvimTreeNormal guibg=NONE ctermbg=NONE]]),
     -- Fern
     FernBranchText = { fg = c.blue },
 
