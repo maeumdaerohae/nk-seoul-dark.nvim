@@ -100,40 +100,40 @@ function M.setup()
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant = { fg = c.orange }, -- (preferred) any constant
-    String = { fg = c.green }, --   a string constant: "this is a string"
-    Character = { fg = c.green }, --  a character constant: 'c', '\n'
-    -- Number        = { }, --   a number constant: 234, 0xff
-    -- Boolean       = { }, --  a boolean constant: TRUE, false
-    -- Float         = { }, --    a floating point constant: 2.3e10
+    Constant = { fg = c.cyber_neon_green }, -- (preferred) any constant
+    String = { fg = c.cyber_yellow_light }, --   a string constant: "this is a string"
+    Character = { fg = c.cyber_pink }, --  a character constant: 'c', '\n'
+    Number = { fg = c.cyber_blue }, --   a number constant: 234, 0xff
+    Boolean = { fg = c.cyber_kaki }, --  a boolean constant: TRUE, false
+    Float = { fg = c.cyber_blue }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = c.magenta, style = options.styles.variables }, -- (preferred) any variable name
-    Function = { fg = c.blue, style = options.styles.functions }, -- function name (also: methods for classes)
+    Identifier = { fg = c.cyber_neon_green, style = options.styles.variables }, -- (preferred) any variable name
+    Function = { fg = c.cyber_cyan, style = options.styles.functions }, -- function name (also: methods for classes)
 
-    Statement = { fg = c.magenta }, -- (preferred) any statement
-    -- Conditional   = { }, --  if, then, else, endif, switch, etc.
-    -- Repeat        = { }, --   for, do, while, etc.
-    -- Label         = { }, --    case, default, etc.
-    Operator = { fg = c.blue5 }, -- "sizeof", "+", "*", etc.
-    Keyword = { fg = c.cyan, style = options.styles.keywords }, --  any other keyword
-    -- Exception     = { }, --  try, catch, throw
+    Statement = { fg = c.cyber_red }, -- (preferred) any statement
+    Conditional = { fg = c.cyber_red }, --  if, then, else, endif, switch, etc.
+    Repeat = { fg = c.cyber_red }, --   for, do, while, etc.
+    Label = { fg = c.cyber_red }, --    case, default, etc.
+    Operator = { fg = c.cyber_red }, -- "sizeof", "+", "*", etc.
+    Keyword = { fg = c.cyber_red, style = options.styles.keywords }, --  any other keyword
+    Exception = { fg = c.cyber_red }, --  try, catch, throw
 
-    PreProc = { fg = c.cyan }, -- (preferred) generic Preprocessor
-    -- Include       = { }, --  preprocessor #include
-    -- Define        = { }, --   preprocessor #define
-    -- Macro         = { }, --    same as Define
-    -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
+    PreProc = { fg = c.cyber_orange_light }, -- (preferred) generic Preprocessor
+    Include = { fg = c.cyber_orange_light }, --  preprocessor #include
+    Define = { fg = c.cyber_orange_light }, --   preprocessor #define
+    Macro = { fg = c.cyber_kaki }, --    same as Define
+    PreCondit = { fg = c.cyber_orange_light }, --  preprocessor #if, #else, #endif, etc.
 
-    Type = { fg = c.blue1 }, -- (preferred) int, long, char, etc.
-    -- StorageClass  = { }, -- static, register, volatile, etc.
-    -- Structure     = { }, --  struct, union, enum, etc.
-    -- Typedef       = { }, --  A typedef
+    Type = { fg = c.cyber_red }, -- (preferred) int, long, char, etc.
+    StorageClass = { fg = c.cyber_red }, -- static, register, volatile, etc.
+    Structure = { fg = c.cyber_red }, --  struct, union, enum, etc.
+    Typedef = { fg = c.cyber_red }, --  A typedef
 
-    Special = { fg = c.blue1 }, -- (preferred) any special symbol
-    -- SpecialChar   = { }, --  special character in a constant
-    -- Tag           = { }, --    you can use CTRL-] on this
+    Special = { fg = c.cyber_yellow }, -- (preferred) any special symbol
+    SpecialChar = { fg = c.cyber_red_light }, --  special character in a constant
+    Tag = { fg = c.cyber_neon_green }, --    you can use CTRL-] on this
     Delimiter = { link = "Special" }, --  character that needs attention
-    -- SpecialComment= { }, -- special things inside a comment
+    SpecialComment = { fg = c.cyber_blue }, -- special things inside a comment
     Debug = { fg = c.orange }, --    debugging statements
 
     Underlined = { underline = true }, -- (preferred) text that stands out, HTML links
