@@ -1,11 +1,11 @@
 (
   selected_tab: Rgb(187,154,247), // magenta #bb9af7
-  command_fg: Rgb(119,119,119), // comment #777777
+  command_fg: Rgb(86,95,137), // comment #565f89
   selection_bg: Rgb(41,46,66), // bg_highlight #292e42
   selection_fg: Rgb(125,207,255), // cyan #7dcfff
   cmdbar_bg: Rgb(36,40,59), // bg #24283b
   cmdbar_extra_lines_bg: Rgb(36,40,59), // bg #24283b
-  disabled_fg: Rgb(119,119,119), // comment #777777
+  disabled_fg: Rgb(86,95,137), // comment #565f89
   diff_line_add: Rgb(158,206,106), // green #9ece6a
   diff_line_delete: Rgb(247,118,142), // red #f7768e
   diff_file_added: Rgb(115,218,202), // green1 #73daca
