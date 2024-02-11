@@ -2074,7 +2074,7 @@ local highlights = {
   },
   NvimTreeFolderIcon = {
     bg = "NONE",
-    fg = "#2666b1"
+    fg = "#c02434"
   },
   NvimTreeGitDeleted = {
     fg = "#c47981"
@@ -2104,14 +2104,14 @@ local highlights = {
   },
   NvimTreeRootFolder = {
     bold = true,
-    fg = "#2666b1"
+    fg = "#c02434"
   },
   NvimTreeSpecialFile = {
-    fg = "#826493",
+    fg = "#252110",
     underline = true
   },
   NvimTreeSymlink = {
-    fg = "#2666b1"
+    fg = "#c02434"
   },
   NvimTreeWinSeparator = {
     bg = "NONE",
@@ -2392,7 +2392,7 @@ local highlights = {
     fg = "#252110"
   },
   WhichKey = {
-    fg = "#00272a"
+    fg = "#c02434"
   },
   WhichKeyDesc = {
     fg = "#2f327c"
@@ -2401,7 +2401,7 @@ local highlights = {
     bg = "NONE"
   },
   WhichKeyGroup = {
-    fg = "#2666b1"
+    fg = "#252110"
   },
   WhichKeySeparator = {
     fg = "#777777"
