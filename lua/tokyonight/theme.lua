@@ -107,27 +107,27 @@ function M.setup()
     Boolean = { fg = c.kaki }, --  a boolean constant: TRUE, false
     Float = { fg = c.blue }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = c.magenta, style = options.styles.variables }, -- (preferred) any variable name
+    Identifier = { fg = c.red, style = options.styles.variables }, -- (preferred) any variable name
     Function = { fg = c.cyan, style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.red }, -- (preferred) any statement
-    -- Conditional   = { }, --  if, then, else, endif, switch, etc.
-    -- Repeat        = { }, --   for, do, while, etc.
-    -- Label         = { }, --    case, default, etc.
+    Conditional = { fg = c.red }, --  if, then, else, endif, switch, etc.
+    Repeat = { fg = c.red }, --   for, do, while, etc.
+    Label = { fg = c.red }, --    case, default, etc.
     Operator = { fg = c.red }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.red, style = options.styles.keywords }, --  any other keyword
-    -- Exception     = { }, --  try, catch, throw
+    Exception = { fg = c.red }, --  try, catch, throw
 
     PreProc = { fg = c.orange }, -- (preferred) generic Preprocessor
-    -- Include       = { }, --  preprocessor #include
-    -- Define        = { }, --   preprocessor #define
-    -- Macro         = { }, --    same as Define
-    -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
+    Include = { fg = c.orange }, --  preprocessor #include
+    Define = { fg = c.orange }, --   preprocessor #define
+    Macro = { fg = c.kaki }, --    same as Define
+    PreCondit = { fg = c.orange }, --  preprocessor #if, #else, #endif, etc.
 
     Type = { fg = c.red }, -- (preferred) int, long, char, etc.
-    -- StorageClass  = { }, -- static, register, volatile, etc.
-    -- Structure     = { }, --  struct, union, enum, etc.
-    -- Typedef       = { }, --  A typedef
+    StorageClass = { fg = c.red }, -- static, register, volatile, etc.
+    Structure = { fg = c.red }, --  struct, union, enum, etc.
+    Typedef = { fg = c.red }, --  A typedef
 
     Special = { fg = c.red }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
