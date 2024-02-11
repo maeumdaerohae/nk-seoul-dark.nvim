@@ -2118,6 +2118,9 @@ local highlights = {
   Operator = {
     fg = "#c02434"
   },
+  PidT = {
+    fg = "#6467c0"
+  },
   Pmenu = {
     bg = "#e9e9ec",
     fg = "#666666"
@@ -2237,6 +2240,9 @@ local highlights = {
   SignColumnSB = {
     bg = "#e9e9ec",
     fg = "#a8aecb"
+  },
+  SizeT = {
+    fg = "#6467c0"
   },
   Sneak = {
     bg = "#6467c0",
