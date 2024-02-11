@@ -4,12 +4,12 @@ local colors = {
   bg_dark = "#16161e",
   bg_float = "#16161e",
   bg_highlight = "#292e42",
-  bg_popup = "#000000",
+  bg_popup = "#16161e",
   bg_search = "#3d59a1",
   bg_sidebar = "#16161e",
-  bg_statusline = "#000000",
+  bg_statusline = "#16161e",
   bg_visual = "#283457",
-  black = "#000000",
+  black = "#15161e",
   blue = "#368aec",
   blue0 = "#3d59a1",
   blue1 = "#2ac3de",
@@ -17,7 +17,7 @@ local colors = {
   blue5 = "#89ddff",
   blue6 = "#b4f9f8",
   blue7 = "#394b70",
-  border = "#000000",
+  border = "#15161e",
   border_highlight = "#27a1b9",
   comment = "#777777",
   cyan = "#00f0ff",
@@ -38,7 +38,7 @@ local colors = {
   fg_dark = "#a9b1d6",
   fg_float = "#cacaca",
   fg_gutter = "#3b4261",
-  fg_sidebar = "#000000",
+  fg_sidebar = "#a9b1d6",
   git = {
     add = "#449dab",
     change = "#6183bb",
@@ -738,7 +738,7 @@ local highlights = {
     fg = "#6183bb"
   },
   BufferOffset = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#737aa2"
   },
   BufferTabpageFill = {
@@ -746,43 +746,43 @@ local highlights = {
     fg = "#737aa2"
   },
   BufferTabpages = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "NONE"
   },
   BufferVisible = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#cacaca"
   },
   BufferVisibleERROR = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#db4b4b"
   },
   BufferVisibleHINT = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#1abc9c"
   },
   BufferVisibleINFO = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#0db9d7"
   },
   BufferVisibleIndex = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#0db9d7"
   },
   BufferVisibleMod = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#eedb85"
   },
   BufferVisibleSign = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#0db9d7"
   },
   BufferVisibleTarget = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#f3505c"
   },
   BufferVisibleWARN = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#eedb85"
   },
   Character = {
@@ -942,7 +942,7 @@ local highlights = {
     bg = "#16161e"
   },
   ColorColumn = {
-    bg = "#000000"
+    bg = "#15161e"
   },
   Comment = {
     fg = "#777777",
@@ -1249,7 +1249,7 @@ local highlights = {
   },
   IncSearch = {
     bg = "#ffc07a",
-    fg = "#000000"
+    fg = "#15161e"
   },
   Include = {
     fg = "#ffc07a"
@@ -1580,52 +1580,52 @@ local highlights = {
     fg = "#a9b1d6"
   },
   MiniStatuslineInactive = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#368aec"
   },
   MiniStatuslineModeCommand = {
     bg = "#eedb85",
     bold = true,
-    fg = "#000000"
+    fg = "#15161e"
   },
   MiniStatuslineModeInsert = {
     bg = "#51f66f",
     bold = true,
-    fg = "#000000"
+    fg = "#15161e"
   },
   MiniStatuslineModeNormal = {
     bg = "#368aec",
     bold = true,
-    fg = "#000000"
+    fg = "#15161e"
   },
   MiniStatuslineModeOther = {
     bg = "#1abc9c",
     bold = true,
-    fg = "#000000"
+    fg = "#15161e"
   },
   MiniStatuslineModeReplace = {
     bg = "#f3505c",
     bold = true,
-    fg = "#000000"
+    fg = "#15161e"
   },
   MiniStatuslineModeVisual = {
     bg = "#b5b6e3",
     bold = true,
-    fg = "#000000"
+    fg = "#15161e"
   },
   MiniSurround = {
     bg = "#ffc07a",
-    fg = "#000000"
+    fg = "#15161e"
   },
   MiniTablineCurrent = {
     bg = "#3b4261",
     fg = "#cacaca"
   },
   MiniTablineFill = {
-    bg = "#000000"
+    bg = "#15161e"
   },
   MiniTablineHidden = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#737aa2"
   },
   MiniTablineModifiedCurrent = {
@@ -1633,19 +1633,19 @@ local highlights = {
     fg = "#eedb85"
   },
   MiniTablineModifiedHidden = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#aea169"
   },
   MiniTablineModifiedVisible = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#eedb85"
   },
   MiniTablineTabpagesection = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "NONE"
   },
   MiniTablineVisible = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#cacaca"
   },
   MiniTestEmphasis = {
@@ -1786,12 +1786,12 @@ local highlights = {
     fg = "#3b4261"
   },
   NeoTreeNormal = {
-    bg = "#000000",
-    fg = "#000000"
+    bg = "#15161e",
+    fg = "#a9b1d6"
   },
   NeoTreeNormalNC = {
-    bg = "#000000",
-    fg = "#000000"
+    bg = "#15161e",
+    fg = "#a9b1d6"
   },
   NeogitBranch = {
     fg = "#b5b6e3"
@@ -1830,7 +1830,7 @@ local highlights = {
     fg = "#368aec"
   },
   NeotestExpandMarker = {
-    fg = "#000000"
+    fg = "#a9b1d6"
   },
   NeotestFailed = {
     fg = "#f3505c"
@@ -1842,7 +1842,7 @@ local highlights = {
     fg = "#eedb85"
   },
   NeotestIndent = {
-    fg = "#000000"
+    fg = "#a9b1d6"
   },
   NeotestMarked = {
     fg = "#368aec"
@@ -1863,7 +1863,7 @@ local highlights = {
     fg = "#368aec"
   },
   NeotestTest = {
-    fg = "#000000"
+    fg = "#a9b1d6"
   },
   NeotestWinSelect = {
     fg = "#368aec"
@@ -1991,7 +1991,7 @@ local highlights = {
   },
   NormalSB = {
     bg = "#16161e",
-    fg = "#000000"
+    fg = "#a9b1d6"
   },
   NotifyBackground = {
     bg = "#1a1b26",
@@ -2084,18 +2084,18 @@ local highlights = {
     fg = "#449dab"
   },
   NvimTreeImageFile = {
-    fg = "#000000"
+    fg = "#a9b1d6"
   },
   NvimTreeIndentMarker = {
     fg = "#3b4261"
   },
   NvimTreeNormal = {
     bg = "#16161e",
-    fg = "#000000"
+    fg = "#a9b1d6"
   },
   NvimTreeNormalNC = {
     bg = "#16161e",
-    fg = "#000000"
+    fg = "#a9b1d6"
   },
   NvimTreeOpenedFile = {
     bg = "#292e42"
@@ -2119,11 +2119,11 @@ local highlights = {
     fg = "#f3505c"
   },
   Pmenu = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#cacaca"
   },
   PmenuSbar = {
-    bg = "#0d0d0d"
+    bg = "#222229"
   },
   PmenuSel = {
     bg = "#343a55"
@@ -2274,11 +2274,11 @@ local highlights = {
     fg = "#f3505c"
   },
   StatusLine = {
-    bg = "#000000",
-    fg = "#000000"
+    bg = "#16161e",
+    fg = "#a9b1d6"
   },
   StatusLineNC = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#3b4261"
   },
   StorageClass = {
@@ -2292,7 +2292,7 @@ local highlights = {
   },
   Substitute = {
     bg = "#f3505c",
-    fg = "#000000"
+    fg = "#15161e"
   },
   TSNodeKey = {
     bold = true,
@@ -2323,15 +2323,15 @@ local highlights = {
     fg = "#eedb85"
   },
   TabLine = {
-    bg = "#000000",
+    bg = "#16161e",
     fg = "#3b4261"
   },
   TabLineFill = {
-    bg = "#000000"
+    bg = "#15161e"
   },
   TabLineSel = {
     bg = "#368aec",
-    fg = "#000000"
+    fg = "#15161e"
   },
   TargetWord = {
     fg = "#00f0ff"
@@ -2376,7 +2376,7 @@ local highlights = {
     underline = true
   },
   VertSplit = {
-    fg = "#000000"
+    fg = "#15161e"
   },
   Visual = {
     bg = "#283457"
@@ -2422,7 +2422,7 @@ local highlights = {
   },
   WinSeparator = {
     bold = true,
-    fg = "#000000"
+    fg = "#15161e"
   },
   YankyPut = {
     link = "IncSearch"
