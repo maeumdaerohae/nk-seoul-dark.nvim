@@ -33,7 +33,7 @@ keyword = { fg = "#00676e", modifiers = ["italic"] }
 "keyword.control.repeat" = { fg = "#c02434" }
 "keyword.control.return" = { fg = "#00676e", modifiers = ["italic"] }
 "keyword.directive" = { fg = "#8a5b00" }
-"keyword.function" = { fg = "#c02434" }
+"keyword.function" = { fg = "#00676e" }
 "keyword.operator" = { fg = "#c02434" }
 label = { fg = "#c02434" }
 "markup.bold" = { modifiers = ["bold"] }
