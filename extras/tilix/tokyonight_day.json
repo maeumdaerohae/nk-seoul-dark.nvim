@@ -2,25 +2,25 @@
     "name": "Tokyo Night Day",
     "comment": "",
     "use-theme-colors": false,
-    "foreground-color": "#666666",
+    "foreground-color": "#2d2d2d",
     "background-color": "#e1e2e7",
     "palette": [
         "#e9e9ed",
         "#c02434",
-        "#1e6b2c",
-        "#645c35",
+        "#07290c",
+        "#252110",
         "#2666b1",
-        "#6467c0",
-        "#00676e",
-        "#6172b0",
+        "#2f327c",
+        "#00272a",
+        "#343f64",
         "#a1a6c5",
         "#c02434",
-        "#1e6b2c",
-        "#645c35",
+        "#07290c",
+        "#252110",
         "#2666b1",
-        "#6467c0",
-        "#00676e",
-        "#666666"
+        "#2f327c",
+        "#00272a",
+        "#2d2d2d"
     ]
 }
   

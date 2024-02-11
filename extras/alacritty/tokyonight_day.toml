@@ -2,38 +2,38 @@
 # Default colors
 [colors.primary]
 background = '#e1e2e7'
-foreground = '#666666'
+foreground = '#2d2d2d'
 
 #[colors.cursor]
-#cursor = '#666666'
+#cursor = '#2d2d2d'
 #text = '#e1e2e7'
 
 # Normal colors
 [colors.normal]
 black = '#e9e9ed'
 red = '#c02434'
-green = '#1e6b2c'
-yellow = '#645c35'
+green = '#07290c'
+yellow = '#252110'
 blue = '#2666b1'
-magenta = '#6467c0'
-cyan = '#00676e'
-white = '#6172b0'
+magenta = '#2f327c'
+cyan = '#00272a'
+white = '#343f64'
 
 # Bright colors
 [colors.bright]
 black = '#a1a6c5'
 red = '#c02434'
-green = '#1e6b2c'
-yellow = '#645c35'
+green = '#07290c'
+yellow = '#252110'
 blue = '#2666b1'
-magenta = '#6467c0'
-cyan = '#00676e'
-white = '#666666'
+magenta = '#2f327c'
+cyan = '#00272a'
+white = '#2d2d2d'
 
 # Indexed Colors
 [[colors.indexed_colors]]
 index = 16
-color = '#8a5b00'
+color = '#3f2700'
 
 [[colors.indexed_colors]]
 index = 17
