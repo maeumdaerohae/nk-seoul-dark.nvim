@@ -291,7 +291,7 @@ function M.setup()
     ["@keyword"] = { fg = c.cyan, style = options.styles.keywords }, -- For keywords that don't fall in previous categories.
     ["@keyword.function"] = { fg = c.cyan, style = options.styles.functions }, -- For keywords used to define a fuction.
 
-    ["@label"] = { fg = c.red }, -- For labels: `label:` in C and `:label:` in Lua.
+    ["@label"] = { fg = c.cyan }, -- For labels: `label:` in C and `:label:` in Lua.
 
     --- Types
     ["@type.builtin"] = { fg = c.red },
