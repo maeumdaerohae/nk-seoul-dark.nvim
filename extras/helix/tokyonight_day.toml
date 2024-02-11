@@ -38,7 +38,7 @@ keyword = { fg = "#c02434", modifiers = ["italic"] }
 label = { fg = "#00676e" }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.heading" = 
-"markup.heading.completion" = { bg = "#ffffff", fg = "#666666" }
+"markup.heading.completion" = { bg = "#e9e9ec", fg = "#666666" }
 "markup.heading.hover" = { bg = "#b3b8d1" }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.link" = { fg = "#2666b1", underline = { style = "line" } }
@@ -68,20 +68,20 @@ type = { fg = "#c02434" }
 "ui.cursor.match" = { fg = "#8a5b00", modifiers = ["bold"] }
 "ui.linenr" = { fg = "#a8aecb" }
 "ui.linenr.select" = { fg = "#68709a" }
-"ui.menu" = { bg = "#ffffff", fg = "#666666" }
-"ui.menu.scroll" = { bg = 16119285, fg = 11054795 }
+"ui.menu" = { bg = "#e9e9ec", fg = "#666666" }
+"ui.menu.scroll" = { bg = 14211292, fg = 11054795 }
 "ui.menu.selected" = { bg = "#b3b8d1" }
 "ui.popup" = { bg = "#e9e9ec", fg = "#2496ac" }
 "ui.selection" = { bg = "bg_highlight" }
-"ui.statusline" = { bg = "#ffffff", fg = "#ffffff" }
-"ui.statusline.inactive" = { bg = "#ffffff", fg = "#a8aecb" }
+"ui.statusline" = { bg = "#e9e9ec", fg = "#6172b0" }
+"ui.statusline.inactive" = { bg = "#e9e9ec", fg = "#a8aecb" }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
 "ui.text" = { fg = "#666666" }
 "ui.text.focus" = { bg = "#b6bfe2" }
 "ui.text.inactive" = { fg = "#777777", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#e9e9ec", fg = "#666666" }
 "ui.virtual.inlay-hint" = { bg = "#acd7eb", fg = "#118c74" }
-"ui.window" = { fg = "#ffffff", modifiers = ["bold"] }
+"ui.window" = { fg = "#e9e9ed", modifiers = ["bold"] }
 variable = { fg = "#666666" }
 "variable.builtin" = { fg = "#c02434" }
 "variable.other.member" = { fg = "#826493" }
@@ -93,12 +93,12 @@ bg = "#e1e2e7"
 bg_dark = "#e9e9ec"
 bg_float = "#e9e9ec"
 bg_highlight = "#c4c8da"
-bg_popup = "#ffffff"
+bg_popup = "#e9e9ec"
 bg_search = "#7890dd"
 bg_sidebar = "#e9e9ec"
-bg_statusline = "#ffffff"
+bg_statusline = "#e9e9ec"
 bg_visual = "#b6bfe2"
-black = "#ffffff"
+black = "#e9e9ed"
 blue = "#2666b1"
 blue0 = "#7890dd"
 blue1 = "#188092"
@@ -106,7 +106,7 @@ blue2 = "#07879d"
 blue5 = "#006a83"
 blue6 = "#2e5857"
 blue7 = "#92a6d5"
-border = "#ffffff"
+border = "#e9e9ed"
 border_highlight = "#2496ac"
 comment = "#777777"
 cyan = "#00676e"
@@ -123,7 +123,7 @@ fg = "#666666"
 fg_dark = "#6172b0"
 fg_float = "#666666"
 fg_gutter = "#a8aecb"
-fg_sidebar = "#ffffff"
+fg_sidebar = "#6172b0"
 "git.add" = "#4197a4"
 "git.change" = "#506d9c"
 "git.delete" = "#c47981"
