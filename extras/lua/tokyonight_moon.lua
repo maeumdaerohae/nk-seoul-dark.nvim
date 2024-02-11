@@ -18,7 +18,7 @@ local colors = {
   blue6 = "#b4f9f8",
   blue7 = "#394b70",
   border = "#1b1d2b",
-  border_highlight = "#589ed7",
+  border_highlight = "#d36570",
   comment = "#636da6",
   cyan = "#86e1fc",
   dark3 = "#545c7e",
@@ -794,7 +794,7 @@ local highlights = {
   },
   CmpDocumentationBorder = {
     bg = "NONE",
-    fg = "#589ed7"
+    fg = "#d36570"
   },
   CmpGhostText = {
     fg = "#444a73"
@@ -977,7 +977,7 @@ local highlights = {
     bg = "#2f334d"
   },
   CursorLineNr = {
-    fg = "#737aa2"
+    fg = "#c8d3f5"
   },
   DapStoppedLine = {
     bg = "#38343d"
@@ -1115,11 +1115,11 @@ local highlights = {
   },
   FloatBorder = {
     bg = "NONE",
-    fg = "#589ed7"
+    fg = "#d36570"
   },
   FloatTitle = {
     bg = "NONE",
-    fg = "#589ed7"
+    fg = "#d36570"
   },
   FoldColumn = {
     bg = "NONE",
@@ -1130,8 +1130,8 @@ local highlights = {
     fg = "#82aaff"
   },
   Foo = {
-    bg = "#ff007c",
-    fg = "#c8d3f5"
+    bg = "#1b1d2b",
+    fg = "#d867c6"
   },
   Function = {
     fg = "#86e1fc",
@@ -1342,20 +1342,20 @@ local highlights = {
     fg = "#0db9d7"
   },
   LineNr = {
-    fg = "#3b4261"
+    fg = "#636da6"
   },
   LspCodeLens = {
     fg = "#636da6"
   },
   LspFloatWinBorder = {
-    fg = "#589ed7"
+    fg = "#d36570"
   },
   LspFloatWinNormal = {
     bg = "NONE"
   },
   LspInfoBorder = {
     bg = "NONE",
-    fg = "#589ed7"
+    fg = "#d36570"
   },
   LspInlayHint = {
     bg = "#24283c",
@@ -1556,7 +1556,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   MiniStarterItemBullet = {
-    fg = "#589ed7"
+    fg = "#d36570"
   },
   MiniStarterItemPrefix = {
     fg = "#ffc777"
@@ -1580,8 +1580,10 @@ local highlights = {
     fg = "#828bb8"
   },
   MiniStatuslineInactive = {
-    bg = "#1e2030",
-    fg = "#82aaff"
+    bg = "NONE",
+    fg = "#222436",
+    sp = "#1b1d2b",
+    underline = true
   },
   MiniStatuslineModeCommand = {
     bg = "#ffc777",
@@ -2278,8 +2280,10 @@ local highlights = {
     fg = "#828bb8"
   },
   StatusLineNC = {
-    bg = "#1e2030",
-    fg = "#3b4261"
+    bg = "NONE",
+    fg = "#222436",
+    sp = "#1b1d2b",
+    underline = true
   },
   StorageClass = {
     fg = "#ff757f"
@@ -2338,7 +2342,7 @@ local highlights = {
   },
   TelescopeBorder = {
     bg = "NONE",
-    fg = "#589ed7"
+    fg = "#d36570"
   },
   TelescopeNormal = {
     bg = "NONE",
