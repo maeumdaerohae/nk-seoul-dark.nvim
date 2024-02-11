@@ -26,16 +26,16 @@ function = { fg = "#86e1fc" }
 "function.special" = { fg = "#ff966c" }
 hint = { fg = "#4fd6be" }
 info = { fg = "#0db9d7" }
-keyword = { fg = "#fca7ea", modifiers = ["italic"] }
+keyword = { fg = "#ff757f", modifiers = ["italic"] }
 "keyword.control" = { fg = "#ff757f" }
 "keyword.control.conditional" = { fg = "#ff757f" }
 "keyword.control.exception" = { fg = "#ff757f" }
 "keyword.control.repeat" = { fg = "#ff757f" }
-"keyword.control.return" = { fg = "#fca7ea", modifiers = ["italic"] }
+"keyword.control.return" = { fg = "#ff757f", modifiers = ["italic"] }
 "keyword.directive" = { fg = "#ff966c" }
-"keyword.function" = { fg = "#c099ff" }
+"keyword.function" = { fg = "#ff757f" }
 "keyword.operator" = { fg = "#ff757f" }
-label = { fg = "#82aaff" }
+label = { fg = "#ff757f" }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.heading" = 
 "markup.heading.completion" = { bg = "#1e2030", fg = "#c8d3f5" }
@@ -56,7 +56,7 @@ namespace =
 operator = { fg = "#ff757f" }
 special = { fg = "#ff757f" }
 string = { fg = "#ffc777" }
-"string.regexp" = { fg = "#b4f9f8" }
+"string.regexp" = { fg = "#82aaff" }
 "string.special" = { fg = "#ff757f" }
 tag = { fg = "#ff757f" }
 type = { fg = "#ff757f" }
@@ -85,7 +85,7 @@ type = { fg = "#ff757f" }
 variable = { fg = "#c8d3f5" }
 "variable.builtin" = { fg = "#ff757f" }
 "variable.other.member" = { fg = "#4fd6be" }
-"variable.parameter" = { fg = "#ffc777" }
+"variable.parameter" = { fg = "#c8d3f5" }
 warning = { fg = "#ffc777" }
 
 [palette]
