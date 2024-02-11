@@ -26,12 +26,12 @@ function = { fg = "#00f0ff" }
 "function.special" = { fg = "#ffc07a" }
 hint = { fg = "#1abc9c" }
 info = { fg = "#0db9d7" }
-keyword = { fg = "#00f0ff", modifiers = ["italic"] }
+keyword = { fg = "#f3505c", modifiers = ["italic"] }
 "keyword.control" = { fg = "#f3505c" }
 "keyword.control.conditional" = { fg = "#f3505c" }
 "keyword.control.exception" = { fg = "#f3505c" }
 "keyword.control.repeat" = { fg = "#f3505c" }
-"keyword.control.return" = { fg = "#00f0ff", modifiers = ["italic"] }
+"keyword.control.return" = { fg = "#f3505c", modifiers = ["italic"] }
 "keyword.directive" = { fg = "#ffc07a" }
 "keyword.function" = { fg = "#00f0ff" }
 "keyword.operator" = { fg = "#f3505c" }
@@ -57,7 +57,7 @@ operator = { fg = "#f3505c" }
 special = { fg = "#00f0ff" }
 string = { fg = "#eedb85" }
 "string.regexp" = { fg = "#368aec" }
-"string.special" = { fg = "#00f0ff" }
+"string.special" = { fg = "#b5b6e3" }
 tag = { fg = "#f3505c" }
 type = { fg = "#f3505c" }
 "type.builtin" = { fg = "#f3505c" }
