@@ -73,7 +73,7 @@ type = { fg = "#ff757f" }
 "ui.menu.selected" = { bg = "#363c58" }
 "ui.popup" = { fg = "#d36570" }
 "ui.selection" = { bg = "bg_highlight" }
-"ui.statusline" = { bg = "#1e2030", fg = "#828bb8" }
+"ui.statusline" = { bg = "#1b1d2b", fg = "#828bb8" }
 "ui.statusline.inactive" = { fg = "#222436", underline = { style = "line" } }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
 "ui.text" = { fg = "#c8d3f5" }

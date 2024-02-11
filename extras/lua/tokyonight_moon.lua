@@ -663,39 +663,39 @@ local highlights = {
     fg = "#ffc777"
   },
   BufferCurrent = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#c8d3f5"
   },
   BufferCurrentERROR = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#c53b53"
   },
   BufferCurrentHINT = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#4fd6be"
   },
   BufferCurrentINFO = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#0db9d7"
   },
   BufferCurrentIndex = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#0db9d7"
   },
   BufferCurrentMod = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#ffc777"
   },
   BufferCurrentSign = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#222436"
   },
   BufferCurrentTarget = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#ff757f"
   },
   BufferCurrentWARN = {
-    bg = "#222436",
+    bg = "#1b1d2b",
     fg = "#ffc777"
   },
   BufferInactive = {
@@ -738,7 +738,7 @@ local highlights = {
     fg = "#7ca1f2"
   },
   BufferOffset = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#737aa2"
   },
   BufferTabpageFill = {
@@ -746,43 +746,43 @@ local highlights = {
     fg = "#737aa2"
   },
   BufferTabpages = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "NONE"
   },
   BufferVisible = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#c8d3f5"
   },
   BufferVisibleERROR = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#c53b53"
   },
   BufferVisibleHINT = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#4fd6be"
   },
   BufferVisibleINFO = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#0db9d7"
   },
   BufferVisibleIndex = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#0db9d7"
   },
   BufferVisibleMod = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#ffc777"
   },
   BufferVisibleSign = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#0db9d7"
   },
   BufferVisibleTarget = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#ff757f"
   },
   BufferVisibleWARN = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#ffc777"
   },
   Character = {
@@ -2276,7 +2276,7 @@ local highlights = {
     fg = "#ff757f"
   },
   StatusLine = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#828bb8"
   },
   StatusLineNC = {
@@ -2327,7 +2327,7 @@ local highlights = {
     fg = "#ffc777"
   },
   TabLine = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#3b4261"
   },
   TabLineFill = {
