@@ -129,7 +129,7 @@ function M.setup()
     Structure = { fg = c.magenta }, --  struct, union, enum, etc.
     Typedef = { fg = c.red }, --  A typedef
 
-    Special = { fg = c.red }, -- (preferred) any special symbol
+    Special = { fg = c.cyan }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     Delimiter = { link = "Special" }, --  character that needs attention
@@ -303,7 +303,6 @@ function M.setup()
     ["@module.builtin"] = { fg = c.cyan }, -- Variable names that are defined by the languages, like `this` or `self`.
 
     FunctionCall = { fg = c.cyan },
-
     --- Text
     -- ["@markup.raw.markdown"] = { fg = c.blue },
     ["@markup.raw.markdown_inline"] = { bg = c.terminal_black, fg = c.blue },
