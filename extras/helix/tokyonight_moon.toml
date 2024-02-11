@@ -71,7 +71,7 @@ type = { fg = "#ff757f" }
 "ui.menu" = { bg = "#1e2030", fg = "#c8d3f5" }
 "ui.menu.scroll" = { bg = 2698042, fg = 3883617 }
 "ui.menu.selected" = { bg = "#363c58" }
-"ui.popup" = { bg = "#1e2030", fg = "#589ed7" }
+"ui.popup" = { fg = "#589ed7" }
 "ui.selection" = { bg = "bg_highlight" }
 "ui.statusline" = { bg = "#1e2030", fg = "#828bb8" }
 "ui.statusline.inactive" = { bg = "#1e2030", fg = "#3b4261" }
@@ -79,7 +79,7 @@ type = { fg = "#ff757f" }
 "ui.text" = { fg = "#c8d3f5" }
 "ui.text.focus" = { bg = "#2d3f76" }
 "ui.text.inactive" = { fg = "#636da6", modifiers = ["italic"] }
-"ui.text.info" = { bg = "#1e2030", fg = "#c8d3f5" }
+"ui.text.info" = { fg = "#c8d3f5" }
 "ui.virtual.inlay-hint" = { bg = "#273644", fg = "#4fd6be" }
 "ui.window" = { fg = "#1b1d2b", modifiers = ["bold"] }
 variable = { fg = "#c8d3f5" }
@@ -91,11 +91,11 @@ warning = { fg = "#ffc777" }
 [palette]
 bg = "#222436"
 bg_dark = "#1e2030"
-bg_float = "#1e2030"
+bg_float = "NONE"
 bg_highlight = "#2f334d"
 bg_popup = "#1e2030"
 bg_search = "#3e68d7"
-bg_sidebar = "#1e2030"
+bg_sidebar = "NONE"
 bg_statusline = "#1e2030"
 bg_visual = "#2d3f76"
 black = "#1b1d2b"
