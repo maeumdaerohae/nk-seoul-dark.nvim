@@ -194,7 +194,7 @@ local highlights = {
     link = "StorageClass"
   },
   ["@label"] = {
-    fg = "#f3505c"
+    fg = "#00f0ff"
   },
   ["@lsp.type.boolean"] = {
     link = "@boolean"

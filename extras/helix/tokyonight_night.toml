@@ -35,7 +35,7 @@ keyword = { fg = "#00f0ff", modifiers = ["italic"] }
 "keyword.directive" = { fg = "#ffc07a" }
 "keyword.function" = { fg = "#00f0ff" }
 "keyword.operator" = { fg = "#f3505c" }
-label = { fg = "#f3505c" }
+label = { fg = "#00f0ff" }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.heading" = 
 "markup.heading.completion" = { bg = "#16161e", fg = "#cacaca" }
