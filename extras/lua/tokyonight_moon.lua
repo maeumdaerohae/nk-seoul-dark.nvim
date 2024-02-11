@@ -118,7 +118,7 @@ local highlights = {
     link = "Define"
   },
   ["@constructor"] = {
-    fg = "#c099ff"
+    fg = "#c8d3f5"
   },
   ["@constructor.tsx"] = {
     fg = "#65bcff"
@@ -421,7 +421,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   ["@property"] = {
-    fg = "#4fd6be"
+    fg = "#fca7ea"
   },
   ["@punctuation.bracket"] = {
     fg = "#828bb8"
@@ -463,7 +463,7 @@ local highlights = {
     link = "Type"
   },
   ["@type.builtin"] = {
-    fg = "#589ed7"
+    fg = "#ff757f"
   },
   ["@type.definition"] = {
     link = "Typedef"
@@ -479,7 +479,7 @@ local highlights = {
     fg = "#ff757f"
   },
   ["@variable.member"] = {
-    fg = "#4fd6be"
+    fg = "#fca7ea"
   },
   ["@variable.parameter"] = {
     fg = "#c8d3f5"
