@@ -511,11 +511,11 @@ function M.setup()
 
     -- Dashboard
     DashboardShortCut = { fg = c.cyan },
-    DashboardHeader = { fg = c.blue },
-    DashboardCenter = { fg = c.magenta },
-    DashboardFooter = { fg = c.blue1 },
-    DashboardKey = { fg = c.orange },
-    DashboardDesc = { fg = c.cyan },
+    DashboardHeader = { fg = c.red },
+    DashboardCenter = { fg = c.yellow },
+    DashboardFooter = { fg = c.yellow },
+    DashboardKey = { fg = c.green },
+    DashboardDesc = { fg = c.yellow },
     DashboardIcon = { fg = c.cyan, bold = true },
 
     -- Alpha
