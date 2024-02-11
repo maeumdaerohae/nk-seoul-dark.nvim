@@ -8,7 +8,7 @@
     fish_color_redirection cacaca
     fish_color_end ffc07a
     fish_color_error f3505c
-    fish_color_param 93735a
+    fish_color_param 9373a5
     fish_color_comment 777777
     fish_color_selection --background=2e3c64
     fish_color_search_match --background=2e3c64

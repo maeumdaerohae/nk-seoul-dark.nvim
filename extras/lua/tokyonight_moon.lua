@@ -623,6 +623,9 @@ local highlights = {
   Bold = {
     bold = true
   },
+  Boolean = {
+    fg = "#908b25"
+  },
   BufferAlternate = {
     bg = "#3b4261",
     fg = "#c8d3f5"
@@ -783,7 +786,7 @@ local highlights = {
     fg = "#ffc777"
   },
   Character = {
-    fg = "#c3e88d"
+    fg = "#d867c6"
   },
   CmpDocumentation = {
     bg = "#1e2030",
@@ -951,7 +954,7 @@ local highlights = {
     fg = "#737aa2"
   },
   Constant = {
-    fg = "#ff966c"
+    fg = "#c3e88d"
   },
   CurSearch = {
     link = "IncSearch"
@@ -1098,6 +1101,9 @@ local highlights = {
     bold = true,
     fg = "#c8d3f5"
   },
+  Float = {
+    fg = "#82aaff"
+  },
   FloatBorder = {
     bg = "#1e2030",
     fg = "#589ed7"
@@ -1119,7 +1125,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   Function = {
-    fg = "#82aaff",
+    fg = "#86e1fc",
     style = {}
   },
   GitGutterAdd = {
@@ -1245,7 +1251,7 @@ local highlights = {
     italic = true
   },
   Keyword = {
-    fg = "#86e1fc",
+    fg = "#ff757f",
     style = {
       italic = true
     }
@@ -2040,6 +2046,9 @@ local highlights = {
   NotifyWARNTitle = {
     fg = "#ffc777"
   },
+  Number = {
+    fg = "#82aaff"
+  },
   NvimTreeFolderIcon = {
     bg = "NONE",
     fg = "#82aaff"
@@ -2102,7 +2111,7 @@ local highlights = {
     bg = "#3b4261"
   },
   PreProc = {
-    fg = "#86e1fc"
+    fg = "#ff966c"
   },
   Question = {
     fg = "#82aaff"
@@ -2210,7 +2219,7 @@ local highlights = {
     bg = "#2d3f76"
   },
   Special = {
-    fg = "#65bcff"
+    fg = "#ff757f"
   },
   SpecialKey = {
     fg = "#545c7e"
@@ -2232,7 +2241,7 @@ local highlights = {
     undercurl = true
   },
   Statement = {
-    fg = "#c099ff"
+    fg = "#ff757f"
   },
   StatusLine = {
     bg = "#1e2030",
@@ -2243,7 +2252,7 @@ local highlights = {
     fg = "#3b4261"
   },
   String = {
-    fg = "#c3e88d"
+    fg = "#ffc777"
   },
   Substitute = {
     bg = "#ff757f",
@@ -2322,7 +2331,7 @@ local highlights = {
     fg = "#828bb8"
   },
   Type = {
-    fg = "#65bcff"
+    fg = "#ff757f"
   },
   Underlined = {
     underline = true

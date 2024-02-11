@@ -1,15 +1,15 @@
-attribute = { fg = "#86e1fc" }
+attribute = { fg = "#ff966c" }
 comment = { fg = "#636da6", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "#ffc777" }
-constant = { fg = "#ff966c" }
-"constant.builtin" = { fg = "#65bcff" }
-"constant.builtin.boolean" = { fg = "#ff966c" }
-"constant.character" = { fg = "#c3e88d" }
+constant = { fg = "#c3e88d" }
+"constant.builtin" = { fg = "#ff757f" }
+"constant.builtin.boolean" = { fg = "#908b25" }
+"constant.character" = { fg = "#d867c6" }
 "constant.character.escape" = { fg = "#c099ff" }
-"constant.numeric" = { fg = "#ff966c" }
-"constant.numeric.float" = { fg = "#ff966c" }
-"constant.numeric.integer" = { fg = "#ff966c" }
-constructor = { fg = "#65bcff" }
+"constant.numeric" = { fg = "#82aaff" }
+"constant.numeric.float" = { fg = "#82aaff" }
+"constant.numeric.integer" = { fg = "#82aaff" }
+constructor = { fg = "#ff757f" }
 "diagnostic.error" = { underline = { style = "curl" } }
 "diagnostic.hint" = { underline = { style = "curl" } }
 "diagnostic.info" = { underline = { style = "curl" } }
@@ -19,22 +19,22 @@ constructor = { fg = "#65bcff" }
 "diff.minus" = { fg = "#e26a75" }
 "diff.plus" = { fg = "#b8db87" }
 error = { fg = "#c53b53" }
-function = { fg = "#82aaff" }
-"function.builtin" = { fg = "#65bcff" }
-"function.macro" = { fg = "#86e1fc" }
+function = { fg = "#86e1fc" }
+"function.builtin" = { fg = "#ff757f" }
+"function.macro" = { fg = "#ff966c" }
 "function.method" = 
-"function.special" = { fg = "#86e1fc" }
+"function.special" = { fg = "#ff966c" }
 hint = { fg = "#4fd6be" }
 info = { fg = "#0db9d7" }
 keyword = { fg = "#fca7ea", modifiers = ["italic"] }
-"keyword.control" = { fg = "#c099ff" }
-"keyword.control.conditional" = { fg = "#c099ff" }
-"keyword.control.exception" = { fg = "#c099ff" }
-"keyword.control.repeat" = { fg = "#c099ff" }
+"keyword.control" = { fg = "#ff757f" }
+"keyword.control.conditional" = { fg = "#ff757f" }
+"keyword.control.exception" = { fg = "#ff757f" }
+"keyword.control.repeat" = { fg = "#ff757f" }
 "keyword.control.return" = { fg = "#fca7ea", modifiers = ["italic"] }
-"keyword.directive" = { fg = "#86e1fc" }
+"keyword.directive" = { fg = "#ff966c" }
 "keyword.function" = { fg = "#c099ff" }
-"keyword.operator" = { fg = "#c099ff" }
+"keyword.operator" = { fg = "#ff757f" }
 label = { fg = "#82aaff" }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.heading" = 
@@ -54,15 +54,15 @@ label = { fg = "#82aaff" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 namespace = 
 operator = { fg = "#ff757f" }
-special = { fg = "#65bcff" }
-string = { fg = "#c3e88d" }
+special = { fg = "#ff757f" }
+string = { fg = "#ffc777" }
 "string.regexp" = { fg = "#b4f9f8" }
-"string.special" = { fg = "#65bcff" }
-tag = { fg = "#c099ff" }
-type = { fg = "#65bcff" }
+"string.special" = { fg = "#ff757f" }
+tag = { fg = "#ff757f" }
+type = { fg = "#ff757f" }
 "type.builtin" = { fg = "#589ed7" }
-"type.enum" = { fg = "#65bcff" }
-"type.enum.variant" = { fg = "#ff966c" }
+"type.enum" = { fg = "#ff757f" }
+"type.enum.variant" = { fg = "#c3e88d" }
 "ui.background" = { bg = "bg" }
 "ui.cursor" = { bg = "#c8d3f5", fg = "#222436" }
 "ui.cursor.match" = { fg = "#ff966c", modifiers = ["bold"] }
