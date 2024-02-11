@@ -283,7 +283,7 @@ function M.setup()
     ["@string.escape"] = { fg = c.magenta }, -- For escape characters within a string.
 
     --- Functions
-    ["@constructor"] = { fg = c.magenta }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    ["@constructor"] = { fg = c.fg }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     ["@variable.parameter"] = { fg = c.fg }, -- For parameters of a function.
     ["@variable.parameter.builtin"] = { fg = c.fg }, -- For builtin parameters of a function, e.g. "..." or Smali's p[1-99]
 
@@ -294,9 +294,9 @@ function M.setup()
     ["@label"] = { fg = c.red }, -- For labels: `label:` in C and `:label:` in Lua.
 
     --- Types
-    ["@type.builtin"] = { fg = util.darken(c.blue1, 0.8) },
-    ["@variable.member"] = { fg = c.green1 }, -- For fields.
-    ["@property"] = { fg = c.green1 },
+    ["@type.builtin"] = { fg = c.red },
+    ["@variable.member"] = { fg = c.purple }, -- For fields.
+    ["@property"] = { fg = c.purple },
 
     --- Identifiers
     ["@variable"] = { fg = c.fg, style = options.styles.variables }, -- Any variable name that does not have another highlight.
