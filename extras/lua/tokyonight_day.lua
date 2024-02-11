@@ -405,7 +405,7 @@ local highlights = {
     link = "Include"
   },
   ["@module.builtin"] = {
-    fg = "#00676e"
+    fg = "#c02434"
   },
   ["@namespace.builtin"] = {
     link = "@variable.builtin"
@@ -476,7 +476,7 @@ local highlights = {
     style = {}
   },
   ["@variable.builtin"] = {
-    fg = "#00676e"
+    fg = "#c02434"
   },
   ["@variable.member"] = {
     fg = "#826493"
@@ -786,7 +786,7 @@ local highlights = {
     fg = "#645c35"
   },
   Character = {
-    fg = "#d35fc1"
+    fg = "#645c35"
   },
   CmpDocumentation = {
     bg = "#e9e9ec",
@@ -2249,7 +2249,7 @@ local highlights = {
     fg = "#00676e"
   },
   SpecialChar = {
-    fg = "#6467c0"
+    fg = "#d35fc1"
   },
   SpecialKey = {
     fg = "#8990b3"
