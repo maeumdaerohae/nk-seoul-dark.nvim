@@ -100,36 +100,36 @@ function M.setup()
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant = { fg = c.orange }, -- (preferred) any constant
-    String = { fg = c.green }, --   a string constant: "this is a string"
-    Character = { fg = c.green }, --  a character constant: 'c', '\n'
-    -- Number        = { }, --   a number constant: 234, 0xff
-    -- Boolean       = { }, --  a boolean constant: TRUE, false
-    -- Float         = { }, --    a floating point constant: 2.3e10
+    Constant = { fg = c.green }, -- (preferred) any constant
+    String = { fg = c.yellow }, --   a string constant: "this is a string"
+    Character = { fg = c.pink }, --  a character constant: 'c', '\n'
+    Number = { fg = c.blue }, --   a number constant: 234, 0xff
+    Boolean = { fg = c.kaki }, --  a boolean constant: TRUE, false
+    Float = { fg = c.blue }, --    a floating point constant: 2.3e10
 
     Identifier = { fg = c.magenta, style = options.styles.variables }, -- (preferred) any variable name
-    Function = { fg = c.blue, style = options.styles.functions }, -- function name (also: methods for classes)
+    Function = { fg = c.cyan, style = options.styles.functions }, -- function name (also: methods for classes)
 
-    Statement = { fg = c.magenta }, -- (preferred) any statement
+    Statement = { fg = c.red }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
     -- Label         = { }, --    case, default, etc.
     Operator = { fg = c.red }, -- "sizeof", "+", "*", etc.
-    Keyword = { fg = c.cyan, style = options.styles.keywords }, --  any other keyword
+    Keyword = { fg = c.red, style = options.styles.keywords }, --  any other keyword
     -- Exception     = { }, --  try, catch, throw
 
-    PreProc = { fg = c.cyan }, -- (preferred) generic Preprocessor
+    PreProc = { fg = c.orange }, -- (preferred) generic Preprocessor
     -- Include       = { }, --  preprocessor #include
     -- Define        = { }, --   preprocessor #define
     -- Macro         = { }, --    same as Define
     -- PreCondit     = { }, --  preprocessor #if, #else, #endif, etc.
 
-    Type = { fg = c.blue1 }, -- (preferred) int, long, char, etc.
+    Type = { fg = c.red }, -- (preferred) int, long, char, etc.
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
 
-    Special = { fg = c.blue1 }, -- (preferred) any special symbol
+    Special = { fg = c.red }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     Delimiter = { link = "Special" }, --  character that needs attention

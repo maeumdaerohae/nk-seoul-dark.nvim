@@ -26,7 +26,7 @@ M.default = {
   blue7 = "#394b70",
   magenta = "#b5b6e3", -- modified cyber_magenta = "#b5b6e3", default magenta = "#bb9af7"
   magenta2 = "#ff007c",
-  purple = "#93735a", --modified cyber_purple = "#9373a5", default purple = "#9d7cd8"
+  purple = "#9373a5", --modified cyber_purple = "#9373a5", default purple = "#9d7cd8"
   pink = "#d867c6", --added cyber_pink = "#d867c6" default none
   orange = "#ffc07a", -- modified cyber_orange = "#ffc07a", default orange = "#ff9e64"
   yellow = "#eedb85", --modified cyber_yellow = "#eedb85", default yellow = "#e0af68"
