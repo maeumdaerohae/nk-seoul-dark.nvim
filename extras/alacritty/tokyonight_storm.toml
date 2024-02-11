@@ -10,7 +10,7 @@ foreground = '#cacaca'
 
 # Normal colors
 [colors.normal]
-black = '#1d202f'
+black = '#000000'
 red = '#f3505c'
 green = '#51f66f'
 yellow = '#eedb85'
