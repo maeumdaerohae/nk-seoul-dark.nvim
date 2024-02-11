@@ -405,7 +405,7 @@ local highlights = {
     link = "Include"
   },
   ["@module.builtin"] = {
-    fg = "#c02434"
+    fg = "#00676e"
   },
   ["@namespace.builtin"] = {
     link = "@variable.builtin"
@@ -476,7 +476,7 @@ local highlights = {
     style = {}
   },
   ["@variable.builtin"] = {
-    fg = "#c02434"
+    fg = "#00676e"
   },
   ["@variable.member"] = {
     fg = "#826493"
