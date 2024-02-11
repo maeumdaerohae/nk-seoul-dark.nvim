@@ -80,9 +80,9 @@ function M.setup()
     SpellCap = { sp = c.warning, undercurl = true }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal = { sp = c.info, undercurl = true }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare = { sp = c.hint, undercurl = true }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
-    StatusLine = { fg = c.fg_sidebar, bg = c.bg_statusline }, -- status line of current window
-    StatusLineNC = { fg = c.fg_gutter, bg = c.bg_statusline }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
-    TabLine = { bg = c.bg_statusline, fg = c.fg_gutter }, -- tab pages line, not active tab page label
+    StatusLine = { fg = c.fg_sidebar, bg = c.black }, -- status line of current window
+    StatusLineNC = { fg = c.fg_gutter, bg = c.black }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    TabLine = { bg = c.black, fg = c.fg_gutter }, -- tab pages line, not active tab page label
     TabLineFill = { bg = c.black }, -- tab pages line, where there are no labels
     TabLineSel = { fg = c.black, bg = c.blue }, -- tab pages line, active tab page label
     Title = { fg = c.blue, bold = true }, -- titles for output from ":set all", ":autocmd" etc.
@@ -550,16 +550,16 @@ function M.setup()
     BufferLineIndicatorSelected = { fg = c.git.change },
 
     -- Barbar
-    BufferCurrent = { bg = c.bg, fg = c.fg },
-    BufferCurrentERROR = { bg = c.bg, fg = c.error },
-    BufferCurrentHINT = { bg = c.bg, fg = c.hint },
+    BufferCurrent = { bg = c.black, fg = c.fg },
+    BufferCurrentERROR = { bg = c.black, fg = c.error },
+    BufferCurrentHINT = { bg = c.black, fg = c.hint },
     -- BufferCurrentIcon = { bg = c.bg, fg = c.},
-    BufferCurrentINFO = { bg = c.bg, fg = c.info },
-    BufferCurrentWARN = { bg = c.bg, fg = c.warning },
-    BufferCurrentIndex = { bg = c.bg, fg = c.info },
-    BufferCurrentMod = { bg = c.bg, fg = c.warning },
-    BufferCurrentSign = { bg = c.bg, fg = c.bg },
-    BufferCurrentTarget = { bg = c.bg, fg = c.red },
+    BufferCurrentINFO = { bg = c.black, fg = c.info },
+    BufferCurrentWARN = { bg = c.black, fg = c.warning },
+    BufferCurrentIndex = { bg = c.black, fg = c.info },
+    BufferCurrentMod = { bg = c.black, fg = c.warning },
+    BufferCurrentSign = { bg = c.black, fg = c.bg },
+    BufferCurrentTarget = { bg = c.black, fg = c.red },
     BufferAlternate = { bg = c.fg_gutter, fg = c.fg },
     BufferAlternateERROR = { bg = c.fg_gutter, fg = c.error },
     BufferAlternateHINT = { bg = c.fg_gutter, fg = c.hint },
@@ -570,29 +570,29 @@ function M.setup()
     BufferAlternateSign = { bg = c.fg_gutter, fg = c.info },
     BufferAlternateTarget = { bg = c.fg_gutter, fg = c.red },
     BufferAlternateWARN = { bg = c.fg_gutter, fg = c.warning },
-    BufferVisible = { bg = c.bg_statusline, fg = c.fg },
-    BufferVisibleERROR = { bg = c.bg_statusline, fg = c.error },
-    BufferVisibleHINT = { bg = c.bg_statusline, fg = c.hint },
-    -- BufferVisibleIcon = { bg = c.bg_statusline, fg = c. },
-    BufferVisibleINFO = { bg = c.bg_statusline, fg = c.info },
-    BufferVisibleWARN = { bg = c.bg_statusline, fg = c.warning },
-    BufferVisibleIndex = { bg = c.bg_statusline, fg = c.info },
-    BufferVisibleMod = { bg = c.bg_statusline, fg = c.warning },
-    BufferVisibleSign = { bg = c.bg_statusline, fg = c.info },
-    BufferVisibleTarget = { bg = c.bg_statusline, fg = c.red },
+    BufferVisible = { bg = c.black, fg = c.fg },
+    BufferVisibleERROR = { bg = c.black, fg = c.error },
+    BufferVisibleHINT = { bg = c.black, fg = c.hint },
+    -- BufferVisibleIcon = { bg = c.black, fg = c. },
+    BufferVisibleINFO = { bg = c.black, fg = c.info },
+    BufferVisibleWARN = { bg = c.black, fg = c.warning },
+    BufferVisibleIndex = { bg = c.black, fg = c.info },
+    BufferVisibleMod = { bg = c.black, fg = c.warning },
+    BufferVisibleSign = { bg = c.black, fg = c.info },
+    BufferVisibleTarget = { bg = c.black, fg = c.red },
     BufferInactive = { bg = util.darken(c.bg_highlight, 0.4), fg = util.darken(c.dark5, 0.8) },
     BufferInactiveERROR = { bg = util.darken(c.bg_highlight, 0.4), fg = util.darken(c.error, 0.8) },
     BufferInactiveHINT = { bg = util.darken(c.bg_highlight, 0.4), fg = util.darken(c.hint, 0.8) },
-    -- BufferInactiveIcon = { bg = c.bg_statusline, fg = util.darken(c., 0.1) },
+    -- BufferInactiveIcon = { bg = c.black, fg = util.darken(c., 0.1) },
     BufferInactiveINFO = { bg = util.darken(c.bg_highlight, 0.4), fg = util.darken(c.info, 0.8) },
     BufferInactiveWARN = { bg = util.darken(c.bg_highlight, 0.4), fg = util.darken(c.warning, 0.8) },
     BufferInactiveIndex = { bg = util.darken(c.bg_highlight, 0.4), fg = c.dark5 },
     BufferInactiveMod = { bg = util.darken(c.bg_highlight, 0.4), fg = util.darken(c.warning, 0.8) },
     BufferInactiveSign = { bg = util.darken(c.bg_highlight, 0.4), fg = c.bg },
     BufferInactiveTarget = { bg = util.darken(c.bg_highlight, 0.4), fg = c.red },
-    BufferOffset = { bg = c.bg_statusline, fg = c.dark5 },
+    BufferOffset = { bg = c.black, fg = c.dark5 },
     BufferTabpageFill = { bg = util.darken(c.bg_highlight, 0.8), fg = c.dark5 },
-    BufferTabpages = { bg = c.bg_statusline, fg = c.none },
+    BufferTabpages = { bg = c.black, fg = c.none },
 
     -- Sneak
     Sneak = { fg = c.bg_highlight, bg = c.magenta },
