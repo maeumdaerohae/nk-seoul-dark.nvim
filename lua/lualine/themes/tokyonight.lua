@@ -4,40 +4,40 @@ local config = require("tokyonight.config").options
 local tokyonight = {}
 
 tokyonight.normal = {
-  a = { bg = colors.yellow, fg = colors.black },
-  b = { bg = colors.black, fg = colors.blue },
-  c = { bg = colors.black, fg = colors.fg_sidebar },
+  a = { bg = colors.yellow, fg = "#000000" },
+  b = { bg = "#000000", fg = colors.yellow },
+  c = { bg = "#000000", fg = colors.fg },
 }
 
 tokyonight.insert = {
-  a = { bg = colors.red, fg = colors.black },
-  b = { bg = colors.black, fg = colors.green },
+  a = { bg = colors.red, fg = "#000000" },
+  b = { bg = "#000000", fg = colors.red },
 }
 
 tokyonight.command = {
-  a = { bg = colors.cyan, fg = colors.black },
-  b = { bg = colors.black, fg = colors.yellow },
+  a = { bg = colors.cyan, fg = "#000000" },
+  b = { bg = "#000000", fg = colors.cyan },
 }
 
 tokyonight.visual = {
-  a = { bg = colors.magenta, fg = colors.black },
-  b = { bg = colors.black, fg = colors.magenta },
+  a = { bg = colors.magenta, fg = "#000000" },
+  b = { bg = "#000000", fg = colors.magenta },
 }
 
 tokyonight.replace = {
-  a = { bg = colors.orange, fg = colors.black },
-  b = { bg = colors.black, fg = colors.red },
+  a = { bg = colors.orange, fg = "#000000" },
+  b = { bg = "#000000", fg = colors.red },
 }
 
 tokyonight.terminal = {
-  a = { bg = colors.green1, fg = colors.black },
-  b = { bg = colors.black, fg = colors.green1 },
+  a = { bg = colors.green1, fg = "#000000" },
+  b = { bg = "#000000", fg = colors.green1 },
 }
 
 tokyonight.inactive = {
-  a = { bg = colors.black, fg = colors.blue },
-  b = { bg = colors.black, fg = colors.black, gui = "bold" },
-  c = { bg = colors.black, fg = colors.black },
+  a = { bg = "#000000", fg = colors.fg },
+  b = { bg = "#000000", fg = "#000000", gui = "bold" },
+  c = { bg = "#000000", fg = "#000000" },
 }
 
 if config.lualine_bold then
