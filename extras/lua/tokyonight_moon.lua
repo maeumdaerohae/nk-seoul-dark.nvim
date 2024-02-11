@@ -1786,11 +1786,11 @@ local highlights = {
     fg = "#3b4261"
   },
   NeoTreeNormal = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#828bb8"
   },
   NeoTreeNormalNC = {
-    bg = "#1e2030",
+    bg = "#1b1d2b",
     fg = "#828bb8"
   },
   NeogitBranch = {
