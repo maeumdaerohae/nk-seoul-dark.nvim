@@ -151,7 +151,7 @@ local highlights = {
     link = "@function.method"
   },
   ["@keyword"] = {
-    fg = "#ff757f",
+    fg = "#86e1fc",
     style = {
       italic = true
     }
