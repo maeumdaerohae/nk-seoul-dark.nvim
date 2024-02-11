@@ -2092,11 +2092,11 @@ local highlights = {
     fg = "#a8aecb"
   },
   NvimTreeNormal = {
-    bg = "NONE",
+    bg = "#e9e9ed",
     fg = "#343f64"
   },
   NvimTreeNormalNC = {
-    bg = "NONE",
+    bg = "#e9e9ed",
     fg = "#343f64"
   },
   NvimTreeOpenedFile = {
@@ -2114,7 +2114,7 @@ local highlights = {
     fg = "#c02434"
   },
   NvimTreeWinSeparator = {
-    bg = "NONE",
+    bg = "#e9e9ed",
     fg = "#e9e9ed"
   },
   Operator = {
